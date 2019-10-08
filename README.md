@@ -6,5 +6,6 @@ Schemes:
 
 ![tiers](readme-images/tiers.png)
 ![difficult](readme-images/difficulty.png)
+![major-themes](readme-images/major-themes-before-exam.png)
 
 </details>
