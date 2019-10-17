@@ -42,6 +42,13 @@ Schemes:
 </details>
 
 <details>
+<summary>Section3: S3 Versioning</summary>
+
+![S3-lifecycle-management](readme-images/S3-Lifecycle-Management.png)
+
+</details>
+
+<details>
 <summary>Section3: S3 Exam tips</summary>
 
 ![S3-exam-1](readme-images/S3-exam-tips.png)
@@ -50,4 +57,5 @@ Schemes:
 ![S3-exam-4](readme-images/S3-exam-tips4.png)
 ![S3-exam-5](readme-images/S3-exam-tips5.png)
 ![S3-exam-6](readme-images/S3-versioning2.png)
+![S3-exam-7](readme-images/S3-Lifecycle-Management.png)
 </details>
