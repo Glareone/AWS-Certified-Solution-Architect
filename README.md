@@ -35,6 +35,13 @@ Schemes:
 </details>
 
 <details>
+<summary>Section3: S3 Versioning</summary>
+
+![S3-versioning-1](readme-images/S3-versioning1.png)
+![S3-versioning-2](readme-images/S3-versioning2.png)
+</details>
+
+<details>
 <summary>Section3: S3 Exam tips</summary>
 
 ![S3-exam-1](readme-images/S3-exam-tips.png)
@@ -42,4 +49,5 @@ Schemes:
 ![S3-exam-3](readme-images/S3-exam-tips3.png)
 ![S3-exam-4](readme-images/S3-exam-tips4.png)
 ![S3-exam-5](readme-images/S3-exam-tips5.png)
+![S3-exam-6](readme-images/S3-versioning2.png)
 </details>
