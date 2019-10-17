@@ -79,6 +79,9 @@ Schemes:
 <summary>Section3: CloudFront</summary>
 
 ![CloudFront](readme-images/CloudFront-Key-Terminology.png)
+![CloudFront](readme-images/CloudFront-Basis.png)
+![CloudFront](readme-images/CloudFront-Cached-Resources.png)
+![CloudFront](readme-images/CloudFront-EdgeLocations-Updating-Files.png)
 
 </details>
 
@@ -94,4 +97,6 @@ Schemes:
 ![S3-exam-7](readme-images/S3-Lifecycle-Management.png)
 ![S3-exam-8](readme-images/S3-replication.png)
 ![S3-exam-9](readme-images/S3-Transfer-Acceleration.png)
+![S3-exam-10](readme-images/CloudFront-Cached-Resources.png)
+![S3-exam-11](readme-images/CloudFront-EdgeLocations-Updating-Files.png)
 </details>
