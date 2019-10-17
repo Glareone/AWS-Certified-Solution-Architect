@@ -20,18 +20,26 @@ Schemes:
 <details>
 <summary>Section3: S3 Storage Information</summary>
 
-![IAM-info1](readme-images/S3-storage-classes.png)
-![IAM-info2](readme-images/S3-Glacier(to%20Archive%20the%20data).png)
-![IAM-info2](readme-images/S3-consistency.png)
-![IAM-info2](readme-images/S3-Objects-consist-of.png)
+![S3-1](readme-images/S3-storage-classes.png)
+![S3-2](readme-images/S3-Glacier(to%20Archive%20the%20data).png)
+![S3-3](readme-images/S3-consistency.png)
+![S3-4](readme-images/S3-Objects-consist-of.png)
+</details>
+
+<details>
+<summary>Section3: S3 Encryption</summary>
+
+![S3-5](readme-images/S3-bucket-policies(ACL,Bucket%20Policies).png)
+![S3-5](readme-images/S3-encryption--transit,rest(Server-side),client.png)
+
 </details>
 
 <details>
 <summary>Section3: S3 Exam tips</summary>
 
-![IAM-info1](readme-images/S3-exam-tips.png)
-![IAM-info1](readme-images/S3-exam-tips2.png)
-![IAM-info1](readme-images/S3-exam-tips3.png)
-![IAM-info1](readme-images/S3-exam-tips4.png)
-![IAM-info1](readme-images/S3-exam-tips5.png)
+![S3-exam-1](readme-images/S3-exam-tips.png)
+![S3-exam-2](readme-images/S3-exam-tips2.png)
+![S3-exam-3](readme-images/S3-exam-tips3.png)
+![S3-exam-4](readme-images/S3-exam-tips4.png)
+![S3-exam-5](readme-images/S3-exam-tips5.png)
 </details>
