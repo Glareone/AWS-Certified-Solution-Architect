@@ -85,6 +85,20 @@ Schemes:
 ![CloudFront](readme-images/CloudFront-Basis.png)
 ![CloudFront](readme-images/CloudFront-Cached-Resources.png)
 ![CloudFront](readme-images/CloudFront-EdgeLocations-Updating-Files.png)
+Invalidating Files:
+If you need to remove a file from CloudFront edge caches before it expires, you can do one of the following:
+Invalidate the file from edge caches. The next time a viewer requests the file, CloudFront returns to the origin to fetch the latest version of the file.
+Use file versioning to serve a different version of the file that has a different name. For more information, see Updating Existing Files Using Versioned File Names.
+
+Important:
+You cannot invalidate objects that are served by an RTMP distribution.
+To invalidate files, you can specify either the path for individual files or a path that ends with the * wildcard, which might apply to one file or to many, as shown in the following examples:
+/images/image1.jpg
+
+/images/image*
+
+/images/*
+![CloudFront](readme-images/CloudFront-Distribution-Invalidations.png)
 
 </details>
 
