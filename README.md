@@ -11,6 +11,17 @@ Schemes:
 </details>
 
 <details>
+<summary>Section 1: Basis</summary>
+Schemes:
+
+![basis](readme-images/AWS-Basis-AvailabilityZone.png)
+![basis](readme-images/AWS-Basis-AvailabilityZone2.png)
+![basis](readme-images/AWS-Basis-Region.png)
+![basis](readme-images/AWS-Basis-Edge-Location.png)
+
+</details>
+
+<details>
 <summary>Section3: IAM</summary>
 
 ![IAM-info1](readme-images/section3-IAM-101-Pic1.png)
@@ -61,6 +72,13 @@ Schemes:
 ![S3-transfer-acceleration](readme-images/S3-Transfer-Acceleration.png)
 ![S3-transfer-acceleration](readme-images/S3-Transfer-Acceleration-edge-locations-scheme.png)
 ![S3-transfer-acceleration](readme-images/S3-Transfer-Acceleration-test-tool.png)
+
+</details>
+
+<details>
+<summary>Section3: CloudFront</summary>
+
+![CloudFront](readme-images/CloudFront-Key-Terminology.png)
 
 </details>
 
