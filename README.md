@@ -11,8 +11,25 @@ Schemes:
 </details>
 
 <details>
-<summary>Section3: IAM and S3</summary>
-Schemes:
+<summary>Section3: IAM</summary>
+
 ![IAM-info1](readme-images/section3-IAM-101-Pic1.png)
 ![IAM-info2](readme-images/section3-IAM-101-Pic2.png)
+</details>
+
+<details>
+<summary>Section3: S3 Storage Information</summary>
+
+![IAM-info1](readme-images/S3-storage-classes.png)
+![IAM-info2](readme-images/S3-Glacier(to%20Archive%20the%20data).png)
+![IAM-info2](readme-images/S3-consistency.png)
+![IAM-info2](readme-images/S3-Objects-consist-of.png)
+</details>
+
+<details>
+<summary>Section3: S3 Exam tips</summary>
+
+![IAM-info1](readme-images/S3-exam-tips.png)
+![IAM-info1](readme-images/S3-exam-tips2.png)
+![IAM-info1](readme-images/S3-exam-tips3.png)
 </details>
