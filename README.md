@@ -32,4 +32,6 @@ Schemes:
 ![IAM-info1](readme-images/S3-exam-tips.png)
 ![IAM-info1](readme-images/S3-exam-tips2.png)
 ![IAM-info1](readme-images/S3-exam-tips3.png)
+![IAM-info1](readme-images/S3-exam-tips4.png)
+![IAM-info1](readme-images/S3-exam-tips5.png)
 </details>
