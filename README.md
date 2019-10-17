@@ -18,6 +18,9 @@ Schemes:
 ![basis](readme-images/AWS-Basis-AvailabilityZone2.png)
 ![basis](readme-images/AWS-Basis-Region.png)
 ![basis](readme-images/AWS-Basis-Edge-Location.png)
+![basis](readme-images/AWS-Basis-Web-Application-Firewall-WAF.png)
+![basis](readme-images/AWS-Basis-Snowball.png)
+![basis](readme-images/AWS-Basis-Snowball-edge-portable-AWS.png)
 
 </details>
 
@@ -82,6 +85,17 @@ Schemes:
 ![CloudFront](readme-images/CloudFront-Basis.png)
 ![CloudFront](readme-images/CloudFront-Cached-Resources.png)
 ![CloudFront](readme-images/CloudFront-EdgeLocations-Updating-Files.png)
+
+</details>
+
+<details>
+<summary>Section3: Snowball</summary>
+
+![CloudFront](readme-images/AWS-Basis-Snowball.png)
+![CloudFront](readme-images/AWS-Basis-Snowball2.png)
+![CloudFront](readme-images/Snowmobile.png)
+![CloudFront](readme-images/AWS-Basis-Snowball-edge-portable-AWS.png)
+![CloudFront](readme-images/AWS-Basis-Snowball-edge2-portable-AWS.png)
 
 </details>
 
