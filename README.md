@@ -42,7 +42,7 @@ Schemes:
 </details>
 
 <details>
-<summary>Section3: S3 Versioning</summary>
+<summary>Section3: S3 Lifecycle management</summary>
 
 ![S3-lifecycle-management](readme-images/S3-Lifecycle-Management.png)
 
