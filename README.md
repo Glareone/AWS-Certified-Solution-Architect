@@ -105,11 +105,47 @@ To invalidate files, you can specify either the path for individual files or a p
 <details>
 <summary>Section3: Snowball</summary>
 
-![CloudFront](readme-images/AWS-Basis-Snowball.png)
-![CloudFront](readme-images/AWS-Basis-Snowball2.png)
-![CloudFront](readme-images/Snowmobile.png)
-![CloudFront](readme-images/AWS-Basis-Snowball-edge-portable-AWS.png)
-![CloudFront](readme-images/AWS-Basis-Snowball-edge2-portable-AWS.png)
+![Snowball](readme-images/AWS-Basis-Snowball.png)
+![Snowball](readme-images/AWS-Basis-Snowball2.png)
+![Snowball](readme-images/Snowmobile.png)
+![Snowball](readme-images/AWS-Basis-Snowball-edge-portable-AWS.png)
+![Snowball](readme-images/AWS-Basis-Snowball-edge2-portable-AWS.png)
+
+</details>
+
+<details>
+<summary>Section3: Storage Gateway - Basis</summary>
+
+![Gateway](readme-images/Storage-gateway.png)
+![Gateway](readme-images/Storage-gateway2.png)
+![Gateway](readme-images/Storage-gateway3.png)
+![Gateway](readme-images/Storage-gateway-types.png)
+![Gateway](readme-images/Volume-gateway.png)
+![Gateway](readme-images/Gateways-types-exam-tips.png)
+
+</details>
+
+<details>
+<summary>Section3: File Gateway</summary>
+
+![Gateway](readme-images/File-gateway.png)
+![Gateway](readme-images/File-gateway2.png)
+
+</details>
+
+<details>
+<summary>Section3: Volume Gateways</summary>
+
+![Gateway](readme-images/Volume-gateway.png)
+Stored Volumes:
+![Gateway](readme-images/Volume-gateway-stored-volumes.png)
+![Gateway](readme-images/Volume-gateway-stored-volumes-scheme.png)
+Cached Volumes:
+![Gateway](readme-images/Volume-gateway-cached-volume.png)
+![Gateway](readme-images/Volume-gateway-cached-volume-scheme.png)
+Tape Gateway:
+![Gateway](readme-images/Volume-gateway-Tape-gateway.png)
+![Gateway](readme-images/Volume-gateway-Tape-gateway-scheme.png)
 
 </details>
 
@@ -127,4 +163,5 @@ To invalidate files, you can specify either the path for individual files or a p
 ![S3-exam-9](readme-images/S3-Transfer-Acceleration.png)
 ![S3-exam-10](readme-images/CloudFront-Cached-Resources.png)
 ![S3-exam-11](readme-images/CloudFront-EdgeLocations-Updating-Files.png)
+![S3-exam-12](readme-images/Gateways-types-exam-tips.png)
 </details>
