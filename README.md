@@ -11,6 +11,20 @@ Schemes:
 </details>
 
 <details>
+<summary>Section 1: Basis</summary>
+Schemes:
+
+![basis](readme-images/AWS-Basis-AvailabilityZone.png)
+![basis](readme-images/AWS-Basis-AvailabilityZone2.png)
+![basis](readme-images/AWS-Basis-Region.png)
+![basis](readme-images/AWS-Basis-Edge-Location.png)
+![basis](readme-images/AWS-Basis-Web-Application-Firewall-WAF.png)
+![basis](readme-images/AWS-Basis-Snowball.png)
+![basis](readme-images/AWS-Basis-Snowball-edge-portable-AWS.png)
+
+</details>
+
+<details>
 <summary>Section3: IAM</summary>
 
 ![IAM-info1](readme-images/section3-IAM-101-Pic1.png)
@@ -24,6 +38,8 @@ Schemes:
 ![S3-2](readme-images/S3-Glacier(to%20Archive%20the%20data).png)
 ![S3-3](readme-images/S3-consistency.png)
 ![S3-4](readme-images/S3-Objects-consist-of.png)
+![S3-exam-1-1](readme-images/S3-Storages-Availability.png)
+![S3-exam-1-2](readme-images/S3-minimum-file-size.png)
 </details>
 
 <details>
@@ -38,13 +54,109 @@ Schemes:
 <summary>Section3: S3 Versioning</summary>
 
 ![S3-versioning-1](readme-images/S3-versioning1.png)
-![S3-versioning-2](readme-images/S3-versioning2.png)
+
 </details>
 
 <details>
 <summary>Section3: S3 Lifecycle management</summary>
 
+You could move your data between storage types: From Standard to Glacier, for example.
 ![S3-lifecycle-management](readme-images/S3-Lifecycle-Management.png)
+
+</details>
+
+<details>
+<summary>Section3: S3 Cross-Region Replication</summary>
+
+[AWS Replication Info](https://docs.aws.amazon.com/AmazonS3/latest/dev/replication.html)
+
+Replication enables automatic, asynchronous copying of objects across Amazon S3 buckets. 
+
+Buckets that are configured for object replication can be owned by the same AWS account or by different accounts. 
+You can copy objects between different AWS Regions or within the same Region.
+
+![S3-replication](readme-images/S3-replication.png)
+
+
+</details>
+
+<details>
+<summary>Section3: S3 Transfer Acceleration</summary>
+
+![S3-transfer-acceleration](readme-images/S3-Transfer-Acceleration.png)
+![S3-transfer-acceleration](readme-images/S3-Transfer-Acceleration-edge-locations-scheme.png)
+![S3-transfer-acceleration](readme-images/S3-Transfer-Acceleration-test-tool.png)
+
+</details>
+
+<details>
+<summary>Section3: CloudFront</summary>
+
+![CloudFront](readme-images/CloudFront-Key-Terminology.png)
+![CloudFront](readme-images/CloudFront-Basis.png)
+![CloudFront](readme-images/CloudFront-Cached-Resources.png)
+![CloudFront](readme-images/CloudFront-EdgeLocations-Updating-Files.png)
+Invalidating Files:
+If you need to remove a file from CloudFront edge caches before it expires, you can do one of the following:
+Invalidate the file from edge caches. The next time a viewer requests the file, CloudFront returns to the origin to fetch the latest version of the file.
+Use file versioning to serve a different version of the file that has a different name. For more information, see Updating Existing Files Using Versioned File Names.
+
+Important:
+You cannot invalidate objects that are served by an RTMP distribution.
+To invalidate files, you can specify either the path for individual files or a path that ends with the * wildcard, which might apply to one file or to many, as shown in the following examples:
+/images/image1.jpg
+
+/images/image*
+
+/images/*
+![CloudFront](readme-images/CloudFront-Distribution-Invalidations.png)
+
+</details>
+
+<details>
+<summary>Section3: Snowball</summary>
+
+![Snowball](readme-images/AWS-Basis-Snowball.png)
+![Snowball](readme-images/AWS-Basis-Snowball2.png)
+![Snowball](readme-images/Snowmobile.png)
+![Snowball](readme-images/AWS-Basis-Snowball-edge-portable-AWS.png)
+![Snowball](readme-images/AWS-Basis-Snowball-edge2-portable-AWS.png)
+
+</details>
+
+<details>
+<summary>Section3: Storage Gateway - Basis</summary>
+
+![Gateway](readme-images/Storage-gateway.png)
+![Gateway](readme-images/Storage-gateway2.png)
+![Gateway](readme-images/Storage-gateway3.png)
+![Gateway](readme-images/Storage-gateway-types.png)
+![Gateway](readme-images/Volume-gateway.png)
+![Gateway](readme-images/Gateways-types-exam-tips.png)
+
+</details>
+
+<details>
+<summary>Section3: File Gateway</summary>
+
+![Gateway](readme-images/File-gateway.png)
+![Gateway](readme-images/File-gateway2.png)
+
+</details>
+
+<details>
+<summary>Section3: Volume Gateways</summary>
+
+![Gateway](readme-images/Volume-gateway.png)
+Stored Volumes:
+![Gateway](readme-images/Volume-gateway-stored-volumes.png)
+![Gateway](readme-images/Volume-gateway-stored-volumes-scheme.png)
+Cached Volumes:
+![Gateway](readme-images/Volume-gateway-cached-volume.png)
+![Gateway](readme-images/Volume-gateway-cached-volume-scheme.png)
+Tape Gateway:
+![Gateway](readme-images/Volume-gateway-Tape-gateway.png)
+![Gateway](readme-images/Volume-gateway-Tape-gateway-scheme.png)
 
 </details>
 
@@ -52,10 +164,19 @@ Schemes:
 <summary>Section3: S3 Exam tips</summary>
 
 ![S3-exam-1](readme-images/S3-exam-tips.png)
+![S3-exam-1-1](readme-images/S3-Storages-Availability.png)
+![S3-exam-1-2](readme-images/S3-minimum-file-size.png)
 ![S3-exam-2](readme-images/S3-exam-tips2.png)
 ![S3-exam-3](readme-images/S3-exam-tips3.png)
 ![S3-exam-4](readme-images/S3-exam-tips4.png)
 ![S3-exam-5](readme-images/S3-exam-tips5.png)
 ![S3-exam-6](readme-images/S3-versioning2.png)
 ![S3-exam-7](readme-images/S3-Lifecycle-Management.png)
+![S3-exam-8](readme-images/S3-replication.png)
+![S3-exam-9](readme-images/S3-Transfer-Acceleration.png)
+![S3-exam-10](readme-images/CloudFront-Cached-Resources.png)
+![S3-exam-11](readme-images/CloudFront-EdgeLocations-Updating-Files.png)
+![S3-exam-12](readme-images/Gateways-types-exam-tips.png)
+* SAML: [Security Assertion Markup Language 2.0](https://aws.amazon.com/identity/saml/) -  
+is an open standard for exchanging identity and security information with applications and service providers.
 </details>
