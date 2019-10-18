@@ -38,6 +38,8 @@ Schemes:
 ![S3-2](readme-images/S3-Glacier(to%20Archive%20the%20data).png)
 ![S3-3](readme-images/S3-consistency.png)
 ![S3-4](readme-images/S3-Objects-consist-of.png)
+![S3-exam-1-1](readme-images/S3-Storages-Availability.png)
+![S3-exam-1-2](readme-images/S3-minimum-file-size.png)
 </details>
 
 <details>
@@ -52,20 +54,29 @@ Schemes:
 <summary>Section3: S3 Versioning</summary>
 
 ![S3-versioning-1](readme-images/S3-versioning1.png)
-![S3-versioning-2](readme-images/S3-versioning2.png)
+
 </details>
 
 <details>
 <summary>Section3: S3 Lifecycle management</summary>
 
+You could move your data between storage types: From Standard to Glacier, for example.
 ![S3-lifecycle-management](readme-images/S3-Lifecycle-Management.png)
 
 </details>
 
 <details>
-<summary>Section3: S3 Replication</summary>
+<summary>Section3: S3 Cross-Region Replication</summary>
+
+[AWS Replication Info](https://docs.aws.amazon.com/AmazonS3/latest/dev/replication.html)
+
+Replication enables automatic, asynchronous copying of objects across Amazon S3 buckets. 
+
+Buckets that are configured for object replication can be owned by the same AWS account or by different accounts. 
+You can copy objects between different AWS Regions or within the same Region.
 
 ![S3-replication](readme-images/S3-replication.png)
+
 
 </details>
 
@@ -153,6 +164,8 @@ Tape Gateway:
 <summary>Section3: S3 Exam tips</summary>
 
 ![S3-exam-1](readme-images/S3-exam-tips.png)
+![S3-exam-1-1](readme-images/S3-Storages-Availability.png)
+![S3-exam-1-2](readme-images/S3-minimum-file-size.png)
 ![S3-exam-2](readme-images/S3-exam-tips2.png)
 ![S3-exam-3](readme-images/S3-exam-tips3.png)
 ![S3-exam-4](readme-images/S3-exam-tips4.png)
@@ -164,4 +177,6 @@ Tape Gateway:
 ![S3-exam-10](readme-images/CloudFront-Cached-Resources.png)
 ![S3-exam-11](readme-images/CloudFront-EdgeLocations-Updating-Files.png)
 ![S3-exam-12](readme-images/Gateways-types-exam-tips.png)
+* SAML: [Security Assertion Markup Language 2.0](https://aws.amazon.com/identity/saml/) -  
+is an open standard for exchanging identity and security information with applications and service providers.
 </details>
