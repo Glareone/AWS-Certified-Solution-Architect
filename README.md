@@ -180,3 +180,28 @@ Tape Gateway:
 * SAML: [Security Assertion Markup Language 2.0](https://aws.amazon.com/identity/saml/) -  
 is an open standard for exchanging identity and security information with applications and service providers.
 </details>
+
+
+<details>
+<summary>Section4: EC2 Basis</summary>
+
+![EC2-Basis](readme-images/EC2-Description.png)
+![EC2-Basis](readme-images/EC2-types.png)
+![EC2-Basis](readme-images/EC2-types-mnemonic-first-char.png)
+![EC2-Basis](readme-images/EC2-pricing.png)
+![EC2-Basis](readme-images/EC2-pricing2.png)
+![EC2-Basis](readme-images/EC2-pricing3.png)
+![EC2-Basis](readme-images/EC2-pricing4.png)
+![EC2-Basis](readme-images/EC2-pricing5.png)
+![EC2-Basis](readme-images/EC2-pricing6.png)
+![EC2-Basis](readme-images/EC2-Spot-instance-termination.png)
+</details>
+
+<details>
+<summary>Section4: EC2 Exam tips</summary>
+
+![EC2-exam1](readme-images/EC2-Description.png)
+![EC2-exam2](readme-images/EC2-types.png)
+![EC2-exam3](readme-images/EC2-Spot-instance-termination.png)
+![EC2-exam4](readme-images/EC2-Spot-instance-termination.png)
+</details>
