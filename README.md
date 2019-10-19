@@ -198,6 +198,36 @@ is an open standard for exchanging identity and security information with applic
 </details>
 
 <details>
+<summary>Section4: Lab1-tips</summary>
+
+To create SSH public key for EC2 you need to run next command in command line:
+ssh-keygen -y -f Glareone-EC2-Lab1-Key-Pair.pem > MyKP.pub
+"Glareone-EC2-Lab1-Key-Pair.pem" - key pair file from console.
+
+* To resolve problem with permissions on this key:
+[windows-ssh-permissions-for-private-key](https://superuser.com/questions/1296024/windows-ssh-permissions-for-private-key-are-too-open)
+
+To run SSH commands you could use "Secure Shell App" Chrome extension.
+to come into your machine you have to use its ip-address (IPv4 Public IP in Instances: [EC2-instances](https://console.aws.amazon.com/ec2/home?region=us-east-1#Instances:sort=instanceId))
+* our: 54.84.6.245
+* user - ec2-user
+
+on machine: 
+* yum update -y (update all packages on your machine)
+* yum install httpd -y (install httpd)
+
+[root@ip-172-31-82-192 html]# cd var/www/html
+[root@ip-172-31-82-192 html]# nano index.html (create index.html in nano, just create a very simple html doc)
+[root@ip-172-31-82-192 html]# service httpd start (start httpd server)
+[root@ip-172-31-82-192 html]# chkconfig on (rerun httpd server if our server rebooted accidentally)
+
+check how it works: just copy address to your browser.
+
+</details>
+
+
+
+<details>
 <summary>Section4: EC2 Exam tips</summary>
 
 ![EC2-exam1](readme-images/EC2-Description.png)
