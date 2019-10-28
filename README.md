@@ -234,4 +234,11 @@ check how it works: just copy address to your browser.
 ![EC2-exam2](readme-images/EC2-types.png)
 ![EC2-exam3](readme-images/EC2-Spot-instance-termination.png)
 ![EC2-exam4](readme-images/EC2-Spot-instance-termination.png)
+![EC2-exam5](readme-images/EC2-Lab2-Encryption.png)
+![EC2-exam6](readme-images/EC2-Lab2-Security.png)
+![EC2-exam7](readme-images/EC2-Lab2-exam-tips.png)
+![EC2-exam7](readme-images/EC2-Lab3-Security-Exam-tips.png)
+![EC2-exam7](readme-images/EC2-Lab3-Security-Exam-tips2.png)
+
 </details>
+
