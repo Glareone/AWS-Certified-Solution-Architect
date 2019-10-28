@@ -226,6 +226,25 @@ check how it works: just copy address to your browser.
 </details>
 
 
+<details>
+<summary>Section4: EC2 - How to move Volume between zones OR regions</summary>
+
+![EC2-exam1](readme-images/EBS-Types.png)
+![EC2](readme-images/EC2-How-to-move-Volume-to-another-zone.png)
+![EC2](readme-images/EC2-How-to-move-Volume-to-another-zone2.png)
+![EC2](readme-images/EC2-How-to-move-Volume-to-another-zone3.png)
+![EC2](readme-images/EC2-How-to-move-Volume-to-another-zone4.png)
+![EC2](readme-images/EC2-How-to-move-Volume-to-another-Region.png)
+
+</details>
+
+<details>
+<summary>Section4: EC2 - Lab2 - Security(ports) & Disk Encryption</summary>
+
+![EC2](readme-images/EC2-Lab2-Encryption.png)
+![EC2](readme-images/EC2-Lab2-Security.png)
+
+</details>
 
 <details>
 <summary>Section4: EC2 Exam tips</summary>
@@ -234,11 +253,20 @@ check how it works: just copy address to your browser.
 ![EC2-exam2](readme-images/EC2-types.png)
 ![EC2-exam3](readme-images/EC2-Spot-instance-termination.png)
 ![EC2-exam4](readme-images/EC2-Spot-instance-termination.png)
-![EC2-exam5](readme-images/EC2-Lab2-Encryption.png)
-![EC2-exam6](readme-images/EC2-Lab2-Security.png)
-![EC2-exam7](readme-images/EC2-Lab2-exam-tips.png)
-![EC2-exam7](readme-images/EC2-Lab3-Security-Exam-tips.png)
+Security (ports) & Disk Encryption:
+![EC2-exam5](readme-images/EC2-Lab2-exam-tips.png)
+![EC2-exam6](readme-images/EC2-Lab3-Security-Exam-tips.png)
 ![EC2-exam7](readme-images/EC2-Lab3-Security-Exam-tips2.png)
+![EC2-exam1](readme-images/EBS-Types.png)
+
+</details>
+
+<details>
+<summary>Section4: EC2 Volumes & Snapshots Exam Tips</summary>
+
+![EC2-exam1](readme-images/EC2-Volumes&Snapshots-Exam-tips.png)
+![EC2-exam2](readme-images/EC2-Volumes&Snapshots-Exam-tips2.png)
+![EC2-exam3](readme-images/EC2-Volumes&Snapshots-Exam-tips3.png)
 
 </details>
 
