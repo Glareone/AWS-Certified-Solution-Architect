@@ -285,3 +285,15 @@ But Instance Store (root volume at least) is not been saved if something wrong w
 ![EC2-EBS-vs-InsStore-3](readme-images/EC2-InstanceStore-vs-EBS-Exam-tips.png)
 
 </details>
+
+<details>
+<summary>Section4: CloudWatch and CloudTrail</summary>
+
+![CloudWatch](readme-images/CloudWatch-What-is.png)
+![CloudWatch](readme-images/CloudWatch-what-can-monitor.png)
+![CloudWatch](readme-images/CloudWatch-metrics.png)
+![CloudWatch](readme-images/CloudWatch-CloudTrail.png)
+![CloudWatch](readme-images/CloudWatch-CloudTrail-difference.png)
+![CloudWatch](readme-images/CloudWatch-CloudTrail-difference2.png)
+
+</details>
