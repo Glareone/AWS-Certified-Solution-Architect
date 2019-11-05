@@ -229,7 +229,7 @@ check how it works: just copy address to your browser.
 <details>
 <summary>Section4: EC2 - How to move Volume between zones OR regions</summary>
 
-![EC2-exam1](readme-images/EBS-Types.png)
+![EC2](readme-images/EBS-Types.png)
 ![EC2](readme-images/EC2-How-to-move-Volume-to-another-zone.png)
 ![EC2](readme-images/EC2-How-to-move-Volume-to-another-zone2.png)
 ![EC2](readme-images/EC2-How-to-move-Volume-to-another-zone3.png)
@@ -257,7 +257,8 @@ Security (ports) & Disk Encryption:
 ![EC2-exam5](readme-images/EC2-Lab2-exam-tips.png)
 ![EC2-exam6](readme-images/EC2-Lab3-Security-Exam-tips.png)
 ![EC2-exam7](readme-images/EC2-Lab3-Security-Exam-tips2.png)
-![EC2-exam1](readme-images/EBS-Types.png)
+![EC2-exam8](readme-images/EBS-Types.png)
+![EC2-exam9](readme-images/EC2-Volume-Encryption-1.png)
 
 </details>
 
@@ -267,14 +268,20 @@ Security (ports) & Disk Encryption:
 ![EC2-exam1](readme-images/EC2-Volumes&Snapshots-Exam-tips.png)
 ![EC2-exam2](readme-images/EC2-Volumes&Snapshots-Exam-tips2.png)
 ![EC2-exam3](readme-images/EC2-Volumes&Snapshots-Exam-tips3.png)
+![EC2-exam4](readme-images/EC2-Volume-Encryption-1.png)
 
 </details>
 
 <details>
 <summary>Section4: EC2 : EBS (Block Store) vs Instance Store</summary>
 
-![EC2-EBS-vs-InsStore](readme-images/EC2%20-%20EBS%20vs%20Instance%20Store.png)
-![EC2-EBS-vs-InsStore](readme-images/EC2-EBS-vs-InstanceStore-2.png)
-![EC2-EBS-vs-InsStore](readme-images/EC2-InstanceStore-vs-EBS-Exam-tips.png)
+Major Difference - Instance Store is a real disk which is more closer to CPU.
+in heavy load on read\write you could drastically decrease CPU waiting time.
+
+But Instance Store (root volume at least) is not been saved if something wrong with Hypervisor will occur.
+
+![EC2-EBS-vs-InsStore-1](readme-images/EC2%20-%20EBS%20vs%20Instance%20Store.png)
+![EC2-EBS-vs-InsStore-2](readme-images/EC2-EBS-vs-InstanceStore-2.png)
+![EC2-EBS-vs-InsStore-3](readme-images/EC2-InstanceStore-vs-EBS-Exam-tips.png)
 
 </details>
