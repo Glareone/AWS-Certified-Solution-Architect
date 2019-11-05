@@ -295,5 +295,6 @@ But Instance Store (root volume at least) is not been saved if something wrong w
 ![CloudWatch](readme-images/CloudWatch-CloudTrail.png)
 ![CloudWatch](readme-images/CloudWatch-CloudTrail-difference.png)
 ![CloudWatch](readme-images/CloudWatch-CloudTrail-difference2.png)
+![CloudWatch](readme-images/CloudWatch-Exam-tips.png)
 
 </details>
