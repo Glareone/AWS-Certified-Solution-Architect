@@ -270,3 +270,11 @@ Security (ports) & Disk Encryption:
 
 </details>
 
+<details>
+<summary>Section4: EC2 : EBS (Block Store) vs Instance Store</summary>
+
+![EC2-EBS-vs-InsStore](readme-images/EC2%20-%20EBS%20vs%20Instance%20Store.png)
+![EC2-EBS-vs-InsStore](readme-images/EC2-EBS-vs-InstanceStore-2.png)
+![EC2-EBS-vs-InsStore](readme-images/EC2-InstanceStore-vs-EBS-Exam-tips.png)
+
+</details>
