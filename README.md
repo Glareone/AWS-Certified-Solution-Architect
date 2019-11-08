@@ -359,5 +359,15 @@ NFS - port 2049
 <details>
 <summary>Section4: EC2 - Placement Groups</summary>
 
+![EC2 Placement groups](readme-images/EC2-Placement-Groups.png)
+![EC2 Placement groups](readme-images/EC2-Placement-Group-Cluster.png)
+![EC2 Placement groups](readme-images/EC2-Placement-Group-Spread.png)
+![EC2 Placement groups](readme-images/EC2-Placement-Group-Partition.png)
+
+* Advantages and Exam tips:
+
+![EC2 Placement groups](readme-images/EC2-Placement-Groups-Advantages.png)
+![EC2 Placement groups](readme-images/EC2-Placement-Groups-Exam-tips-2.png)
+
 
 </details>
