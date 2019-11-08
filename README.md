@@ -294,7 +294,6 @@ But Instance Store (root volume at least) is not been saved if something wrong w
 ![CloudWatch](readme-images/CloudWatch-metrics.png)
 ![CloudWatch](readme-images/CloudWatch-CloudTrail.png)
 ![CloudWatch](readme-images/CloudWatch-CloudTrail-difference.png)
-![CloudWatch](readme-images/CloudWatch-CloudTrail-difference2.png)
 ![CloudWatch](readme-images/CloudWatch-Exam-tips.png)
 
 </details>
@@ -303,8 +302,8 @@ But Instance Store (root volume at least) is not been saved if something wrong w
 <summary>Section4: AWS Command Line + Exam Tips</summary>
 
 Safe information - this user is deleted.
-![CloudWatch](readme-images/AWS-Command-Line.png)
-![CloudWatch](readme-images/AWS-Command-Line-Exam-Tips.png)
+![AWS Command Line](readme-images/AWS-Command-Line.png)
+![AWS Command Line](readme-images/AWS-Command-Line-Exam-Tips.png)
 
 </details>
 
@@ -320,7 +319,24 @@ It is more safe than use AccessKey + SecretKey pair because this pair is stored 
 ~/.aws (under the root). 
 * If you delete it - you will not continue your work. Besides, your credentials could be stolen
 by hacker. That's why role usage is a better way.
-![CloudWatch](readme-images/AWS-EC2-Attach-IAM-Role1.png)
-![CloudWatch](readme-images/AWS-EC2-Attach-Role-Exam-Tips.png)
+![EC2 Role](readme-images/AWS-EC2-Attach-IAM-Role1.png)
+![EC2 Role](readme-images/AWS-EC2-Attach-Role-Exam-Tips.png)
 
+</details>
+
+<details>
+<summary>Section4: EC2 Instance Metadata and Exam Tips:</summary>
+
+a) from aws console after ssh logging:
+* [root@ip-172-31-22-213 ec2-user]# curl http://172.31.22.213/latest/user-data
+You will see your bootstrap script (which you could add as listed below)
+![EC2 Instance Metadata](readme-images/EC2-Bootstrap-scripts.png)
+script example:
+[bootstrap script example](files/BootStrap-script.txt)
+
+b) from aws console after ssh logging:
+* [root@ip-172-31-22-213 ec2-user]# curl http://172.31.22.213/latest/meta-data
+get whole bunch of options:
+![EC2 Instance Metadata](readme-images/EC2-Metadata.png)
+![EC2 Instance Metadata](readme-images/EC2-Metadata-Exam-tips.png)
 </details>
