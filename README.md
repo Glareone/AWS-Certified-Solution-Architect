@@ -307,3 +307,20 @@ Safe information - this user is deleted.
 ![CloudWatch](readme-images/AWS-Command-Line-Exam-Tips.png)
 
 </details>
+
+<details>
+<summary>Section4: AWS EC2 Role vs Users AccessKey + SecretKey</summary>
+
+1) You could create a new role in IAM -> Create Role (For EC2).
+There you could select policies for your new role. Administrator Access is suitable to manage EC2.
+
+2) Then - you have to attach new role to your instance.
+* When you login to server using ssh it will check do you have enough permissions to work with it or not.
+It is more safe than use AccessKey + SecretKey pair because this pair is stored in secret directory:
+~/.aws (under the root). 
+* If you delete it - you will not continue your work. Besides, your credentials could be stolen
+by hacker. That's why role usage is a better way.
+![CloudWatch](readme-images/AWS-EC2-Attach-IAM-Role1.png)
+![CloudWatch](readme-images/AWS-EC2-Attach-Role-Exam-Tips.png)
+
+</details>
