@@ -361,6 +361,9 @@ NFS - port 2049
 
 ![EC2 Placement groups](readme-images/EC2-Placement-Groups.png)
 ![EC2 Placement groups](readme-images/EC2-Placement-Group-Cluster.png)
+
+* PAY ATTENTION! Spread Placement Group can only have 7 running instances per Availability Zone.
+
 ![EC2 Placement groups](readme-images/EC2-Placement-Group-Spread.png)
 ![EC2 Placement groups](readme-images/EC2-Placement-Group-Partition.png)
 
@@ -369,5 +372,51 @@ NFS - port 2049
 ![EC2 Placement groups](readme-images/EC2-Placement-Groups-Advantages.png)
 ![EC2 Placement groups](readme-images/EC2-Placement-Groups-Exam-tips-2.png)
 
+
+</details>
+
+<details>
+<summary>Section4: Interesting Exam Questions</summary>
+
+1 Can I move a reserved instance from one region to another?
+* No. Depending on you type of RL you can You can modify the AZ, scope, network platform, or instance size 
+(within the same instance type), but not Region. In some circumstances you can sell RIs, but only if you have 
+a US bank account.
+
+2 You need to know both the private IP address and public IP address of your EC2 instance. You should
+* Retrieve meta-data : /latest/meta-data
+
+3 If an Amazon EBS volume is an additional partition (not the root volume), can I detach it without stopping the instance?
+* Yes. although it may take some time.
+
+4. You can add multiple volumes to an EC2 instance and then create your own RAID 5/RAID 10/RAID 0 configurations using 
+those volumes.
+* true
+
+5. Individual instances are provisioned 
+* In AZ
+
+6. Spread Placement Groups can be deployed across multiple Availability Zones
+* True
+
+7. To retrieve instance metadata or user data you will need to use the following IP Address:
+* http://169.254.169.254
+
+8. Will an Amazon EBS root volume persist independently from the life of the terminated EC2 instance to which it was 
+previously attached? In other words, if I terminated an EC2 instance, would that EBS root volume persist?
+* Only if I specify that it should do so. You can control whether an EBS root volume is deleted when its associated 
+instance is terminated. The default delete-on-termination behaviour depends on whether the volume is a root volume, 
+or an additional volume. By default, the DeleteOnTermination attribute for root volumes is set to 'true.' However, 
+this attribute may be changed at launch by using either the AWS Console or the command line. For an instance that 
+is already running, the DeleteOnTermination attribute must be changed using the CLI.
+
+9. Can you attach an EBS volume to more than one EC2 instance at the same time?
+* No.
+
+10. I can use the AWS Console to add a role to an EC2 instance after that instance has been created and powered-up.
+* True
+
+11. Can you attach an EBS volume to more than one EC2 instance at the same time?
+* No.
 
 </details>
