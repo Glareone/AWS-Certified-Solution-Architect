@@ -340,3 +340,24 @@ get whole bunch of options:
 ![EC2 Instance Metadata](readme-images/EC2-Metadata.png)
 ![EC2 Instance Metadata](readme-images/EC2-Metadata-Exam-tips.png)
 </details>
+
+<details>
+<summary>Section4: Elastic File System</summary>
+
+This filesystem is better than EBS because you could increase its volume in a second.
+Also, you could share files between your EC2 instances.
+If you update a file from one instance - you could read changes from another instantly.
+
+![EC2 Elastic-File-System](readme-images/EC2-Elastic-File-System.png)
+
+* To work with it you need to add the next port to your security group:
+NFS - port 2049
+
+![EC2 Elastic-File-System](readme-images/EC2-EFS-File-System-exam-tips.png)
+</details>
+
+<details>
+<summary>Section4: EC2 - Placement Groups</summary>
+
+
+</details>
