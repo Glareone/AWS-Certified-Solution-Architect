@@ -420,3 +420,25 @@ is already running, the DeleteOnTermination attribute must be changed using the 
 * No.
 
 </details>
+
+Section 5: Databases On AWS.
+
+<details>
+<summary>Section 5: Relational & NOSQL Databases</summary>
+
+The most important features:
+![RDS](readme-images/Section%205/RDS.png)
+![RDS](readme-images/Section%205/Multi-AZ.png)
+![RDS](readme-images/Section%205/Read%20Replica.png)
+Database processing types:
+![RDS](readme-images/Section%205/OLTP.png)
+![RDS](readme-images/Section%205/OLAP.png)
+Caching:
+![RDS](readme-images/Section%205/Elastic%20Cache%20types.png)
+![RDS](readme-images/Section%205/ElastiCache.png)
+Exam Tips:
+![RDS](readme-images/Section%205/Exam%20Tips%20-%20db%20types.png)
+![RDS](readme-images/Section%205/Exam%20Tips2-performance.png)
+
+</details>
+
