@@ -445,10 +445,18 @@ Exam Tips:
 <details>
 <summary>Section 5: NOSQL Databases. DynamoDB </summary>
 
-![DynamoDB](readme-images/Section%205/DynamoDB.png)
-![DynamoDB](readme-images/Section%205/DynamoDB%20Basics.png)
-![DynamoDB](readme-images/Section%205/DynamoDB-Exam%20Tips.png)
-![DynamoDB](readme-images/Section%205/DynamoDB-Eventual%20Consistent%20Reads.png)
-![DynamoDB](readme-images/Section%205/DynamoDB-StronglyConsistent%20Reads.png)
+![DynamoDB](readme-images/Section 5/DynamoDB/DynamoDB.png)
+![DynamoDB](readme-images/Section%205/DynamoDB/DynamoDB%20Basics.png)
+![DynamoDB](readme-images/Section%205/DynamoDB/DynamoDB-Exam%20Tips.png)
+![DynamoDB](readme-images/Section%205/DynamoDB/DynamoDB-Eventual%20Consistent%20Reads.png)
+![DynamoDB](readme-images/Section%205/DynamoDB/DynamoDB-StronglyConsistent%20Reads.png)
+
+</details>
+
+<details>
+<summary>Section 5: Redshift. Database Warehousing </summary>
+
+![Redshift](readme-images/Section 5/Redshift/Redshift.png)
+![Redshift](readme-images/Section%205/OLAP.png)
 
 </details>
