@@ -442,3 +442,13 @@ Exam Tips:
 
 </details>
 
+<details>
+<summary>Section 5: NOSQL Databases. DynamoDB </summary>
+
+![DynamoDB](readme-images/Section%205/DynamoDB.png)
+![DynamoDB](readme-images/Section%205/DynamoDB%20Basics.png)
+![DynamoDB](readme-images/Section%205/DynamoDB-Exam%20Tips.png)
+![DynamoDB](readme-images/Section%205/DynamoDB-Eventual%20Consistent%20Reads.png)
+![DynamoDB](readme-images/Section%205/DynamoDB-StronglyConsistent%20Reads.png)
+
+</details>
