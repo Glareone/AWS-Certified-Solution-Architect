@@ -435,7 +435,7 @@ Database processing types:
 ![RDS](readme-images/Section%205/OLAP.png)
 Caching:
 ![RDS](readme-images/Section%205/Elastic%20Cache%20types.png)
-![RDS](readme-images/Section%205/ElastiCache.png)
+![RDS](readme-images/Section 5/ElastiCache/ElastiCache.png)
 Exam Tips:
 ![RDS](readme-images/Section%205/Exam%20Tips%20-%20db%20types.png)
 ![RDS](readme-images/Section%205/Exam%20Tips2-performance.png)
@@ -471,11 +471,21 @@ Exam Tips:
 <details>
 <summary>Section 5: MySQL - Aurora </summary>
 
-![Redshift](readme-images/Section 5/MySql%20-%20Aurora/Aurora.png)
-![Redshift](readme-images/Section 5/MySql%20-%20Aurora/Basics.png)
-![Redshift](readme-images/Section 5/MySql%20-%20Aurora/Basics2.png)
-![Redshift](readme-images/Section 5/MySql%20-%20Aurora/Basics3.png)
-![Redshift](readme-images/Section 5/MySql%20-%20Aurora/Aurora%20Replicas.png)
-![Redshift](readme-images/Section 5/MySql%20-%20Aurora/Aurora%20Replicas%20Comparition%20with%20MySQL.png)
+![Aurora](readme-images/Section 5/MySql%20-%20Aurora/Aurora.png)
+![Aurora](readme-images/Section 5/MySql%20-%20Aurora/Basics.png)
+![Aurora](readme-images/Section 5/MySql%20-%20Aurora/Basics2.png)
+![Aurora](readme-images/Section 5/MySql%20-%20Aurora/Basics3.png)
+![Aurora](readme-images/Section 5/MySql%20-%20Aurora/Aurora%20Replicas.png)
+![Aurora](readme-images/Section 5/MySql%20-%20Aurora/Aurora%20Replicas%20Comparition%20with%20MySQL.png)
+
+</details>
+
+<details>
+<summary>Section 5: MySQL - ElastiCache </summary>
+
+![ElastiCache](readme-images/Section 5/ElastiCache/ElastiCache.png)
+![ElastiCache](readme-images/Section 5/ElastiCache/Elastic%20Cache%20types.png)
+![ElastiCache](readme-images/Section 5/ElastiCache/Memcached%20vs%20Redis.png)
+![ElastiCache](readme-images/Section 5/ElastiCache/Exam%20Tips.png)
 
 </details>
