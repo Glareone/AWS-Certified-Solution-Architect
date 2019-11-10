@@ -458,5 +458,24 @@ Exam Tips:
 
 ![Redshift](readme-images/Section 5/Redshift/Redshift.png)
 ![Redshift](readme-images/Section%205/OLAP.png)
+![Redshift](readme-images/Section%205/Redshift/Redshift-Configurations.png)
+![Redshift](readme-images/Section%205/Redshift/Redshift%20Compression.png)
+![Redshift](readme-images/Section%205/Redshift/Redshift%20Backups.png)
+![Redshift](readme-images/Section%205/Redshift/Redshift%20Pricing.png)
+![Redshift](readme-images/Section%205/Redshift/Massively%20Parallel%20Processing.png)
+![Redshift](readme-images/Section%205/Redshift/Availability.png)
+![Redshift](readme-images/Section%205/Redshift/Security.png)
+
+</details>
+
+<details>
+<summary>Section 5: MySQL - Aurora </summary>
+
+![Redshift](readme-images/Section 5/MySql%20-%20Aurora/Aurora.png)
+![Redshift](readme-images/Section 5/MySql%20-%20Aurora/Basics.png)
+![Redshift](readme-images/Section 5/MySql%20-%20Aurora/Basics2.png)
+![Redshift](readme-images/Section 5/MySql%20-%20Aurora/Basics3.png)
+![Redshift](readme-images/Section 5/MySql%20-%20Aurora/Aurora%20Replicas.png)
+![Redshift](readme-images/Section 5/MySql%20-%20Aurora/Aurora%20Replicas%20Comparition%20with%20MySQL.png)
 
 </details>
