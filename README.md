@@ -422,6 +422,7 @@ is already running, the DeleteOnTermination attribute must be changed using the 
 </details>
 
 Section 5: Databases On AWS.
+===
 
 <details>
 <summary>Section 5: Relational & NOSQL Databases</summary>
@@ -429,7 +430,12 @@ Section 5: Databases On AWS.
 The most important features:
 ![RDS](readme-images/Section%205/RDS.png)
 ![RDS](readme-images/Section%205/Multi-AZ.png)
+
+One of two ways to improve performance - use "Read Replica":
+[aws link](https://aws.amazon.com/rds/details/read-replicas/)
 ![RDS](readme-images/Section%205/Read%20Replica.png)
+![RDS](readme-images/Section%205/Read%20Replicas.png)
+
 Database processing types:
 ![RDS](readme-images/Section%205/OLTP.png)
 ![RDS](readme-images/Section%205/OLAP.png)
@@ -481,11 +487,22 @@ Exam Tips:
 </details>
 
 <details>
-<summary>Section 5: MySQL - ElastiCache </summary>
+<summary>Section 5: ElastiCache. Redis and Memcached </summary>
 
 ![ElastiCache](readme-images/Section 5/ElastiCache/ElastiCache.png)
 ![ElastiCache](readme-images/Section 5/ElastiCache/Elastic%20Cache%20types.png)
 ![ElastiCache](readme-images/Section 5/ElastiCache/Memcached%20vs%20Redis.png)
 ![ElastiCache](readme-images/Section 5/ElastiCache/Exam%20Tips.png)
+
+</details>
+
+<details>
+<summary>Section 5: Db Lectures Summary and Exam Tips </summary>
+
+![Summary](readme-images/Section 5/Exam%20Tips%201.png)
+![Summary](readme-images/Section 5/Exam%20Tips2.png)
+![Summary](readme-images/Section%205/Read%20Replicas.png)
+![Summary](readme-images/Section%205/Multi%20AZ.png)
+![Summary](readme-images/Section%205/Exam%20Tips%20-%20Encryption.png)
 
 </details>
