@@ -256,7 +256,7 @@ check how it works: just copy address to your browser.
 Security (ports) & Disk Encryption:
 ![EC2-exam5](readme-images/EC2-Lab2-exam-tips.png)
 ![EC2-exam6](readme-images/EC2-Lab3-Security-Exam-tips.png)
-![EC2-exam7](readme-images/EC2-Lab3-Security-Exam-tips2.png)
+![EC2-exam7](readme-images/EC2-Lab3-Security-exam-tips2.png)
 ![EC2-exam8](readme-images/EBS-Types.png)
 ![EC2-exam9](readme-images/EC2-Volume-Encryption-1.png)
 
@@ -441,7 +441,7 @@ Database processing types:
 ![RDS4](readme-images/Section%205/OLAP.png)
 
 Caching:
-![RDS5](readme-images/Section%205/Elastic%20Cache%20types.png)
+![RDS5](readme-images/Section%205/ElastiCache/Elastic%20Cache%20types.png)
 ![RDS6](readme-images/Section%205/ElastiCache/ElastiCache.png)
 Exam Tips:
 ![RDS7](readme-images/Section%205/Exam%20Tips%20-%20db%20types.png)
@@ -466,21 +466,13 @@ Exam Tips:
 <summary>Section 5: Redshift. Database Warehousing </summary>
 
 ![Redshift1](readme-images/Section%205/Redshift/Redshift.png)
-
 ![Redshift2](readme-images/Section%205/OLAP.png)
-
 ![Redshift3](readme-images/Section%205/Redshift/Redshift-Configurations.png)
-
 ![Redshift4](readme-images/Section%205/Redshift/Redshift%20Compression.png)
-
 ![Redshift5](readme-images/Section%205/Redshift/Redshift%20Backups.png)
-
 ![Redshift6](readme-images/Section%205/Redshift/Redshift%20Pricing.png)
-
 ![Redshift7](readme-images/Section%205/Redshift/Massively%20Parallel%20Processing.png)
-
 ![Redshift8](readme-images/Section%205/Redshift/Availability.png)
-
 ![Redshift9](readme-images/Section%205/Redshift/Security.png)
 
 </details>
@@ -489,15 +481,10 @@ Exam Tips:
 <summary>Section 5: MySQL - Aurora </summary>
 
 ![Aurora1](readme-images/Section%205/MySql%20-%20Aurora/Aurora.png)
-
 ![Aurora2](readme-images/Section%205/MySql%20-%20Aurora/Basics.png)
-
 ![Aurora3](readme-images/Section%205/MySql%20-%20Aurora/Basics2.png)
-
 ![Aurora4](readme-images/Section%205/MySql%20-%20Aurora/Basics3.png)
-
 ![Aurora5](readme-images/Section%205/MySql%20-%20Aurora/Aurora%20Replicas.png)
-
 ![Aurora6](readme-images/Section%205/MySql%20-%20Aurora/Aurora%20Replicas%20Comparition%20with%20MySQL.png)
 
 </details>
@@ -505,15 +492,10 @@ Exam Tips:
 <details>
 <summary>Section 5: ElastiCache. Redis and Memcached </summary>
 
-
 ![ElastiCache1](readme-images/Section%205/ElastiCache/ElastiCache.png)
-
 ![ElastiCache2](readme-images/Section%205/ElastiCache/Elastic%20Cache%20types.png)
-
 ![ElastiCache3](readme-images/Section%205/ElastiCache/Memcached%20vs%20Redis.png)
-
 ![ElastiCache4](readme-images/Section%205/ElastiCache/Exam%20Tips.png)
-
 
 </details>
 
@@ -521,13 +503,9 @@ Exam Tips:
 <summary>Section 5: Db Lectures Summary and Exam Tips </summary>
 
 ![Summary1](readme-images/Section%205/Exam%20Tips%201.png)
-
 ![Summary2](readme-images/Section%205/Exam%20Tips2.png)
-
 ![Summary3](readme-images/Section%205/Read%20Replicas.png)
-
 ![Summary4](readme-images/Section%205/Multi%20AZ.png)
-
 ![Summary5](readme-images/Section%205/Exam%20Tips%20-%20Encryption.png)
 
 </details>
