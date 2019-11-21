@@ -442,7 +442,7 @@ Database processing types:
 
 Caching:
 ![RDS5](readme-images/Section%205/Elastic%20Cache%20types.png)
-![RDS6](readme-images/Section 5/ElastiCache/ElastiCache.png)
+![RDS6](readme-images/Section%205/ElastiCache/ElastiCache.png)
 Exam Tips:
 ![RDS7](readme-images/Section%205/Exam%20Tips%20-%20db%20types.png)
 ![RDS8](readme-images/Section%205/Exam%20Tips2-performance.png)
@@ -452,7 +452,7 @@ Exam Tips:
 <details>
 <summary>Section 5: NOSQL Databases. DynamoDB </summary>
 
-![DynamoDB1](readme-images/Section 5/DynamoDB/DynamoDB.png)
+![DynamoDB1](readme-images/Section%205/DynamoDB/DynamoDB.png)
 
 ![DynamoDB2](readme-images/Section%205/DynamoDB/DynamoDB%20Basics.png)
 
@@ -465,7 +465,7 @@ Exam Tips:
 <details>
 <summary>Section 5: Redshift. Database Warehousing </summary>
 
-![Redshift1](readme-images/Section 5/Redshift/Redshift.png)
+![Redshift1](readme-images/Section%205/Redshift/Redshift.png)
 
 ![Redshift2](readme-images/Section%205/OLAP.png)
 
@@ -488,17 +488,17 @@ Exam Tips:
 <details>
 <summary>Section 5: MySQL - Aurora </summary>
 
-![Aurora1](readme-images/Section 5/MySql%20-%20Aurora/Aurora.png)
+![Aurora1](readme-images/Section%205/MySql%20-%20Aurora/Aurora.png)
 
-![Aurora2](readme-images/Section 5/MySql%20-%20Aurora/Basics.png)
+![Aurora2](readme-images/Section%205/MySql%20-%20Aurora/Basics.png)
 
-![Aurora3](readme-images/Section 5/MySql%20-%20Aurora/Basics2.png)
+![Aurora3](readme-images/Section%205/MySql%20-%20Aurora/Basics2.png)
 
-![Aurora4](readme-images/Section 5/MySql%20-%20Aurora/Basics3.png)
+![Aurora4](readme-images/Section%205/MySql%20-%20Aurora/Basics3.png)
 
-![Aurora5](readme-images/Section 5/MySql%20-%20Aurora/Aurora%20Replicas.png)
+![Aurora5](readme-images/Section%205/MySql%20-%20Aurora/Aurora%20Replicas.png)
 
-![Aurora6](readme-images/Section 5/MySql%20-%20Aurora/Aurora%20Replicas%20Comparition%20with%20MySQL.png)
+![Aurora6](readme-images/Section%205/MySql%20-%20Aurora/Aurora%20Replicas%20Comparition%20with%20MySQL.png)
 
 </details>
 
@@ -506,13 +506,13 @@ Exam Tips:
 <summary>Section 5: ElastiCache. Redis and Memcached </summary>
 
 
-![ElastiCache1](readme-images/Section 5/ElastiCache/ElastiCache.png)
+![ElastiCache1](readme-images/Section%205/ElastiCache/ElastiCache.png)
 
-![ElastiCache2](readme-images/Section 5/ElastiCache/Elastic%20Cache%20types.png)
+![ElastiCache2](readme-images/Section%205/ElastiCache/Elastic%20Cache%20types.png)
 
-![ElastiCache3](readme-images/Section 5/ElastiCache/Memcached%20vs%20Redis.png)
+![ElastiCache3](readme-images/Section%205/ElastiCache/Memcached%20vs%20Redis.png)
 
-![ElastiCache4](readme-images/Section 5/ElastiCache/Exam%20Tips.png)
+![ElastiCache4](readme-images/Section%205/ElastiCache/Exam%20Tips.png)
 
 
 </details>
@@ -520,9 +520,9 @@ Exam Tips:
 <details>
 <summary>Section 5: Db Lectures Summary and Exam Tips </summary>
 
-![Summary1](readme-images/Section 5/Exam%20Tips%201.png)
+![Summary1](readme-images/Section%205/Exam%20Tips%201.png)
 
-![Summary2](readme-images/Section 5/Exam%20Tips2.png)
+![Summary2](readme-images/Section%205/Exam%20Tips2.png)
 
 ![Summary3](readme-images/Section%205/Read%20Replicas.png)
 
