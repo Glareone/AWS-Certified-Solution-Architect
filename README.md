@@ -509,3 +509,26 @@ Exam Tips:
 ![Summary5](readme-images/Section%205/Exam%20Tips%20-%20Encryption.png)
 
 </details>
+
+<details>
+<summary>Section 6: DNS101 & Route53</summary>
+
+![Summary1](readme-images/Section%206/DNS101.jpg)
+![Summary2](readme-images/Section%206/CName.jpg)
+![Summary3](readme-images/Section%206/Alias%20Records.jpg)
+![Summary4](readme-images/Section%206/AliasRecordVSCName.jpg)
+![Summary5](readme-images/Section%206/Route53_Tips.jpg)
+![Summary6](readme-images/Section%206/Common_DNS_types.jpg)
+![Summary7](readme-images/Section%206/DNS+Route53-ExamTips.jpg)
+
+</details>
+
+<details>
+<summary>Section 6: Route53, Routing Policies</summary>
+
+![Summary1](readme-images/Section%206/RoutingPolicies.jpg)
+![Summary2](readme-images/Section%206/RoutingPolicies/SimpleRouting_Policy.jpg)
+![Summary2](readme-images/Section%206/RoutingPolicies/WeightedRouting_Policy.jpg)
+![Summary2](readme-images/Section%206/RoutingPolicies/RoutingPolicy_HealthCheck.jpg)
+
+</details>
