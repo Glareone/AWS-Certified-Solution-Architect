@@ -528,5 +528,7 @@ Exam Tips:
 
 ![Summary1](readme-images/Section%206/RoutingPolicies.jpg)
 ![Summary2](readme-images/Section%206/RoutingPolicies/SimpleRouting_Policy.jpg)
+![Summary2](readme-images/Section%206/RoutingPolicies/WeightedRouting_Policy.jpg)
+![Summary2](readme-images/Section%206/RoutingPolicies/RoutingPolicy_HealthCheck.jpg)
 
 </details>
