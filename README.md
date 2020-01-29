@@ -510,7 +510,7 @@ Exam Tips:
 
 </details>
 
-======================== SECTION 6. ROUTE53, DNS101, Routing Policies, Tips ===========================================
+================ SECTION 6. ROUTE53, DNS101, Routing Policies, Tips ========================
 
 <details>
 <summary>Section 6: DNS101 & Route53</summary>
