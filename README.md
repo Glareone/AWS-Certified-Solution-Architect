@@ -510,6 +510,8 @@ Exam Tips:
 
 </details>
 
+======================== SECTION 6. ROUTE53, DNS101, Routing Policies, Tips ===========================================
+
 <details>
 <summary>Section 6: DNS101 & Route53</summary>
 
@@ -536,5 +538,13 @@ Routing Types:
 ![Summary6](readme-images/Section%206/RoutingPolicies/FailoverRouting_Policy.jpg)
 ![Summary7](readme-images/Section%206/RoutingPolicies/GeolocationRoutingPolicy.jpg)
 ![Summary8](readme-images/Section%206/RoutingPolicies/GeoProximityRouting(UsingBiasAndTrafficFlowMap).jpg)
+
+</details>
+
+<details>
+<summary>Section 6: Additional Exam Tips</summary>
+
+![Summary1](readme-images/Section%206/Route53-ExamTips_1.jpg)
+![Summary2](readme-images/Section%206/Route53-ExamTips_2.jpg)
 
 </details>
