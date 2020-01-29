@@ -528,7 +528,13 @@ Exam Tips:
 
 ![Summary1](readme-images/Section%206/RoutingPolicies.jpg)
 ![Summary2](readme-images/Section%206/RoutingPolicies/SimpleRouting_Policy.jpg)
-![Summary2](readme-images/Section%206/RoutingPolicies/WeightedRouting_Policy.jpg)
-![Summary2](readme-images/Section%206/RoutingPolicies/RoutingPolicy_HealthCheck.jpg)
+![Summary3](readme-images/Section%206/RoutingPolicies/WeightedRouting_Policy.jpg)
+![Summary4](readme-images/Section%206/RoutingPolicies/RoutingPolicy_HealthCheck.jpg)
+Routing Types:
+
+![Summary5](readme-images/Section%206/RoutingPolicies/LatencyRoutingPolicy.jpg)
+![Summary6](readme-images/Section%206/RoutingPolicies/FailoverRouting_Policy.jpg)
+![Summary7](readme-images/Section%206/RoutingPolicies/GeolocationRoutingPolicy.jpg)
+![Summary8](readme-images/Section%206/RoutingPolicies/GeoProximityRouting(UsingBiasAndTrafficFlowMap).jpg)
 
 </details>
