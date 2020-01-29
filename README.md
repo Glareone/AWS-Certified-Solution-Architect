@@ -548,3 +548,18 @@ Routing Types:
 ![Summary2](readme-images/Section%206/Route53-ExamTips_2.jpg)
 
 </details>
+
+<details>
+<summary>Section 7: VPC General Information and Exam Tip</summary>
+
+![Summary1](readme-images/Section%207/VPC_Info_1.jpg)
+![Summary2](readme-images/Section%207/VPC_Description_1.jpg)
+![Summary2](readme-images/Section%207/VPC_Description_2.jpg)
+![Summary2](readme-images/Section%207/VPC_Description_3.jpg)
+![Summary2](readme-images/Section%207/Diagram.jpg)
+![Summary2](readme-images/Section%207/VPC_Features_1.jpg)
+![Summary2](readme-images/Section%207/VPC_Features_2.jpg)
+![Summary2](readme-images/Section%207/VPC_Features_3(Peering).jpg)
+![Summary2](readme-images/Section%207/VPC_Exam_Tips_1.jpg)
+
+</details>
