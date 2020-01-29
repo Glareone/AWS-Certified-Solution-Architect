@@ -510,7 +510,7 @@ Exam Tips:
 
 </details>
 
-======================== SECTION 6. ROUTE53, DNS101, Routing Policies, Tips ===========================================
+================ SECTION 6. ROUTE53, DNS101, Routing Policies, Tips ========================
 
 <details>
 <summary>Section 6: DNS101 & Route53</summary>
@@ -554,12 +554,12 @@ Routing Types:
 
 ![Summary1](readme-images/Section%207/VPC_Info_1.jpg)
 ![Summary2](readme-images/Section%207/VPC_Description_1.jpg)
-![Summary2](readme-images/Section%207/VPC_Description_2.jpg)
-![Summary2](readme-images/Section%207/VPC_Description_3.jpg)
-![Summary2](readme-images/Section%207/Diagram.jpg)
-![Summary2](readme-images/Section%207/VPC_Features_1.jpg)
-![Summary2](readme-images/Section%207/VPC_Features_2.jpg)
-![Summary2](readme-images/Section%207/VPC_Features_3(Peering).jpg)
-![Summary2](readme-images/Section%207/VPC_Exam_Tips_1.jpg)
+![Summary3](readme-images/Section%207/VPC_Description_2.jpg)
+![Summary4](readme-images/Section%207/VPC_Description_3.jpg)
+![Summary5](readme-images/Section%207/Diagram.jpg)
+![Summary6](readme-images/Section%207/VPC_Features_1.jpg)
+![Summary7](readme-images/Section%207/VPC_Features_2.jpg)
+![Summary8](readme-images/Section%207/VPC_Features_3(Peering).jpg)
+![Summary9](readme-images/Section%207/VPC_Exam_Tips_1.jpg)
 
 </details>
