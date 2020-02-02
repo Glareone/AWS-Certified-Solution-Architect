@@ -563,3 +563,32 @@ Routing Types:
 ![Summary9](readme-images/Section%207/VPC_Exam_Tips_1.jpg)
 
 </details>
+
+<details>
+<summary>Section 7: Custom VPC Configuration</summary>
+
+![Summary1](readme-images/Section%207/VPC_Inside_1.jpg)
+![Summary2](readme-images/Section%207/VPC_Inside_2.jpg)
+![Summary3](readme-images/Section%207/VPC_Inside_3.jpg)
+![Summary4](readme-images/Section%207/VPC_Inside_4.jpg)
+![Summary5](readme-images/Section%207/VPC_Inside_5-Internet%20Gateway.jpg)
+![Summary6](readme-images/Section%207/VPC_Inside_6-Attach%20gateway%20to%20vpc.jpg)
+![Summary7](readme-images/Section%207/VPC_Inside_7-Route_Tables.jpg)
+![Summary8](readme-images/Section%207/VPC_Inside_8-SubnetAssociations_with_routeTables.jpg)
+![Summary9](readme-images/Section%207/VPC_Inside_9-NewRouteTable.jpg)
+![Summary10](readme-images/Section%207/VPC_Inside_10-MakeNewRouteTableAsPublic.jpg)
+![Summary11](readme-images/Section%207/VPC_Inside_11-PublicRouteTableConfig.jpg)
+
+
+Then we could start creating our EC2 instances.
+In Private EC2 Instance we could create our Database (for example) which will be without any direct public access.
+![Summary12](readme-images/Section%207/VPC_Inside_12-EC2-Creation.jpg)
+![Summary13](readme-images/Section%207/VPC_Inside_13-EC2-SecurityGroup-Selection.jpg)
+![Summary14](readme-images/Section%207/VPC_Inside_14-EC2-PrivateSubnet.jpg)
+![Summary15](readme-images/Section%207/VPC_Inside_15-EC2-Final%20Configurations.jpg)
+![Summary16](readme-images/Section%207/VPC_Inside_16.jpg)
+
+To create SSH access to private EC2 instance though public EC2 - we have to use Private EC2 IP address and make some changes:
+ 
+
+</details>
