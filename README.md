@@ -563,3 +563,20 @@ Routing Types:
 ![Summary9](readme-images/Section%207/VPC_Exam_Tips_1.jpg)
 
 </details>
+
+<details>
+<summary>Section 7: Custom VPC Configuration</summary>
+
+![Summary1](readme-images/Section%207/VPC_Inside_1.jpg)
+![Summary1](readme-images/Section%207/VPC_Inside_2.jpg)
+![Summary1](readme-images/Section%207/VPC_Inside_3.jpg)
+![Summary1](readme-images/Section%207/VPC_Inside_4.jpg)
+![Summary1](readme-images/Section%207/VPC_Inside_5-Internet%20Gateway.jpg)
+![Summary1](readme-images/Section%207/VPC_Inside_6-Attach%20gateway%20to%20vpc.jpg)
+![Summary1](readme-images/Section%207/VPC_Inside_7-Route_Tables.jpg)
+![Summary1](readme-images/Section%207/VPC_Inside_8-SubnetAssociations_with_routeTables.jpg)
+![Summary1](readme-images/Section%207/VPC_Inside_9-NewRouteTable.jpg)
+![Summary1](readme-images/Section%207/VPC_Inside_10-MakeNewRouteTableAsPublic.jpg)
+![Summary1](readme-images/Section%207/VPC_Inside_11-PublicRouteTableConfig.jpg)
+
+</details>
