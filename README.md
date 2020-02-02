@@ -588,4 +588,7 @@ In Private EC2 Instance we could create our Database (for example) which will be
 ![Summary15](readme-images/Section%207/VPC_Inside_15-EC2-Final%20Configurations.jpg)
 ![Summary16](readme-images/Section%207/VPC_Inside_16.jpg)
 
+To create SSH access to private EC2 instance though public EC2 - we have to use Private EC2 IP address and make some changes:
+ 
+
 </details>
