@@ -425,7 +425,7 @@ Section 5: Databases On AWS.
 ===
 
 <details>
-<summary>Section 5: Relational & NOSQL Databases</summary>
+<summary>Section 5: Relational & NoSQL Databases</summary>
 
 The most important features:
 ![RDS](readme-images/Section%205/RDS.png)
@@ -450,7 +450,20 @@ Exam Tips:
 </details>
 
 <details>
-<summary>Section 5: NOSQL Databases. DynamoDB </summary>
+<summary>Section 5: RDS: Relational Database, RDS Backups, Replicas, Multi-AZ </summary>
+
+![RDS1](readme-images/Section%205/RDS/Pic_1.jpg)
+![RDS2](readme-images/Section%205/RDS/Pic_2_RDS_Access_Configuration_1.jpg)
+![RDS3](readme-images/Section%205/RDS/Pic_2_RDS_Access_Configuration_2.jpg)
+![RDS4](readme-images/Section%205/RDS/Pic_3_Db_instances_limit.jpg)
+![RDS5](readme-images/Section%205/RDS/Pic_4_DB_WordPress_and_DB_Connection_1.jpg)
+![RDS6](readme-images/Section%205/RDS/Pic_4_DB_WordPress_and_DB_Connection_2.jpg)
+![RDS7](readme-images/Section%205/RDS/ExamTip.jpg)
+
+</details>
+
+<details>
+<summary>Section 5: NoSQL Databases. DynamoDB </summary>
 
 ![DynamoDB1](readme-images/Section%205/DynamoDB/DynamoDB.png)
 
@@ -548,6 +561,8 @@ Routing Types:
 ![Summary2](readme-images/Section%206/Route53-ExamTips_2.jpg)
 
 </details>
+
+================== SECTION 7. VPC, Custom VPC, Configuration ===============================
 
 <details>
 <summary>Section 7: VPC General Information and Exam Tip</summary>
