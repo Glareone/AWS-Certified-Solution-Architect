@@ -489,6 +489,18 @@ FOR PERFORMANCE IMPROVEMENTS:
 ![RDS_Backups and ReadReplica14](readme-images/Section%205/RDS/RDS_Read_Replica_Types_4.jpg)
 ![RDS_Backups and ReadReplica15](readme-images/Section%205/RDS/RDS_Read_Replica_5.jpg)
 
+Detailed Explanation How to add Read Replica to DB instance:
+
+![RDS_ReadReplica1](readme-images/Section%205/RDS/RDS_Lab_1.jpg)
+![RDS_ReadReplica2](readme-images/Section%205/RDS/RDS_Lab_2.jpg)
+![RDS_ReadReplica3](readme-images/Section%205/RDS/RDS_Lab_3.jpg)
+![RDS_ReadReplica4](readme-images/Section%205/RDS/RDS_Lab_3_Backup_turn-on.jpg)
+![RDS_ReadReplica5](readme-images/Section%205/RDS/RDS_Lab_3_Backup_turn-on_2.jpg)
+![RDS_ReadReplica6](readme-images/Section%205/RDS/RDS_Lab_4_ReadReplica_1.jpg)
+![RDS_ReadReplica7](readme-images/Section%205/RDS/RDS_Lab_4_ReadReplica_2.jpg)
+![RDS_ReadReplica8](readme-images/Section%205/RDS/RDS_Lab_4_ReadReplica_3.jpg)
+![RDS_ReadReplica9](readme-images/Section%205/RDS/RDS_Lab_4_ReadReplica_4.jpg)
+
 </details>
 
 <details>
