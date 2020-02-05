@@ -450,7 +450,7 @@ Exam Tips:
 </details>
 
 <details>
-<summary>Section 5: RDS: Relational Database, RDS Backups, Replicas, Multi-AZ </summary>
+<summary>Section 5: RDS: Relational Database, general </summary>
 
 ![RDS1](readme-images/Section%205/RDS/Pic_1.jpg)
 ![RDS2](readme-images/Section%205/RDS/Pic_2_RDS_Access_Configuration_1.jpg)
@@ -459,6 +459,35 @@ Exam Tips:
 ![RDS5](readme-images/Section%205/RDS/Pic_4_DB_WordPress_and_DB_Connection_1.jpg)
 ![RDS6](readme-images/Section%205/RDS/Pic_4_DB_WordPress_and_DB_Connection_2.jpg)
 ![RDS7](readme-images/Section%205/RDS/ExamTip.jpg)
+
+Issue solving with old AWS RDS interface: [Link](https://help.acloud.guru/hc/en-us/articles/360001078435)
+
+</details>
+
+<details>
+<summary>Section 5: RDS: Read Replicas, Backups, Multi-AZ. Lecture </summary>
+
+![RDS_Backups and ReadReplica1](readme-images/Section%205/RDS/RDS_Backups_types.jpg)
+![RDS_Backups and ReadReplica2](readme-images/Section%205/RDS/RDS_Backups_Automated_type.jpg)
+![RDS_Backups and ReadReplica3](readme-images/Section%205/RDS/RDS_Backups_Automated_type_2.jpg)
+![RDS_Backups and ReadReplica4](readme-images/Section%205/RDS/RDS_Backups_ManualSnapshot.jpg)
+![RDS_Backups and ReadReplica5](readme-images/Section%205/RDS/RDS_Backups_2.jpg)
+![RDS_Backups and ReadReplica6](readme-images/Section%205/RDS/RDS_Encryption.jpg)
+
+FOR DATA RESTORATION:
+
+![RDS_Backups and ReadReplica7](readme-images/Section%205/RDS/RDS_Replication_1.jpg)
+![RDS_Backups and ReadReplica8](readme-images/Section%205/RDS/RDS_Replication_2.jpg)
+![RDS_Backups and ReadReplica9](readme-images/Section%205/RDS/RDS_Replication_3.jpg)
+![RDS_Backups and ReadReplica10](readme-images/Section%205/RDS/RDS_Replication_4.jpg)
+
+FOR PERFORMANCE IMPROVEMENTS:
+
+![RDS_Backups and ReadReplica11](readme-images/Section%205/RDS/RDS_Read_Replica_1.jpg)
+![RDS_Backups and ReadReplica12](readme-images/Section%205/RDS/RDS_Read_Replica_2.jpg)
+![RDS_Backups and ReadReplica13](readme-images/Section%205/RDS/RDS_Read_Replica_3.jpg)
+![RDS_Backups and ReadReplica14](readme-images/Section%205/RDS/RDS_Read_Replica_Types_4.jpg)
+![RDS_Backups and ReadReplica15](readme-images/Section%205/RDS/RDS_Read_Replica_5.jpg)
 
 </details>
 
