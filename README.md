@@ -637,7 +637,8 @@ Routing Types:
 
 
 Then we could start creating our EC2 instances.
-In Private EC2 Instance we could create our Database (for example) which will be without any direct public access.
+In Private EC2 Instance we could create our Database (for example). 
+This EC2 instance shouldn't have direct public access due potential security issues.
 ![Summary12](readme-images/Section%207/VPC_Inside_12-EC2-Creation.jpg)
 ![Summary13](readme-images/Section%207/VPC_Inside_13-EC2-SecurityGroup-Selection.jpg)
 ![Summary14](readme-images/Section%207/VPC_Inside_14-EC2-PrivateSubnet.jpg)
@@ -646,5 +647,42 @@ In Private EC2 Instance we could create our Database (for example) which will be
 
 To create SSH access to private EC2 instance though public EC2 - we have to use Private EC2 IP address and make some changes:
  
+
+</details>
+
+<details>
+<summary>Section 7: NAT & Access Control List in VPC</summary>
+
+Network address translation (NAT) is a method of remapping one IP address space into another by modifying
+ network address information in the IP header of packets while they are in transit across a traffic routing device.
+ 
+Difference between NAT Gateway and NAT Instance:
+1) NAT Instance is literally a single EC2 Instance which do this job.
+2) NAT Gateway is highly available gateway which allows you to have your private subnets and communicate out 
+to the internet without becoming public.
+
+1:
+![NAT1](readme-images/Section%207/NAT/VPC-NAT_1.jpg)
+![NAT2](readme-images/Section%207/NAT/VPC-NAT_Instance_create_2.jpg)
+![NAT3](readme-images/Section%207/NAT/VPC-NAT_Instance_create_3.jpg)
+
+Additional information could be found here: [AWS Documentation Link](https://docs.aws.amazon.com/vpc/latest/userguide/VPC_NAT_Instance.html)
+Important Note in documentation! :
+You must disable Source/Destination traffic checks.
+To Do that:
+![NAT4](readme-images/Section%207/NAT/VPC-NAT_Instance_Disable_SourceAndDestination_Checks_4.jpg)
+![NAT5](readme-images/Section%207/NAT/VPC-NAT_Instance_RouteTable_5.jpg)
+![NAT6](readme-images/Section%207/NAT/VPC-NAT_Instance_RouteTable_Edit_6.jpg)
+
+The problem with this approach is in NAT EC2 Instance. Later This EC2 Instance with NAT would be a massive bottleneck.
+And, of course, it's a point of failure.
+
+2: Another approach is create a NAT Gateway.
+![NAT5](readme-images/Section%207/NAT/VPC-NAT_Gateway_7.jpg)
+![NAT6](readme-images/Section%207/NAT/VPC-NAT_Gateway_8.jpg)
+![NAT7](readme-images/Section%207/NAT/VPC-NAT_Gateway_9.jpg)
+![NAT8](readme-images/Section%207/NAT/VPC-NAT_Instance_Tips_10.jpg)
+![NAT9](readme-images/Section%207/NAT/VPC-NAT_Gateway_Tips_11.jpg)
+![NAT10](readme-images/Section%207/NAT/VPC-NAT_Gateway_Tips_12.jpg)
 
 </details>
