@@ -753,4 +753,4 @@ Exam tips:
 ![Flow_Logs](readme-images/Section%207/Flow_Logs/Logs_tip1.jpg)
 ![Flow_Logs](readme-images/Section%207/Flow_Logs/Logs_tip2.jpg)
 
-</details>>
+</details>
