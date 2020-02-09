@@ -24,6 +24,9 @@ Schemes:
 
 </details>
 
+Section 3: General Information about AWS services.
+===
+
 <details>
 <summary>Section3: IAM</summary>
 
@@ -181,6 +184,8 @@ Tape Gateway:
 is an open standard for exchanging identity and security information with applications and service providers.
 </details>
 
+Section 4: EC2
+===
 
 <details>
 <summary>Section4: EC2 Basis</summary>
@@ -436,7 +441,8 @@ One of two ways to improve performance - use "Read Replica":
 ![RDS1](readme-images/Section%205/Read%20Replica.png)
 ![RDS2](readme-images/Section%205/Read%20Replicas.png)
 
-Database processing types:
+Database processing types, OLTP vs OLAP:
+OLTP for Relational Databases (RDS), OLAP for Warehouses (Redshift)
 ![RDS3](readme-images/Section%205/OLTP.png)
 ![RDS4](readme-images/Section%205/OLAP.png)
 
@@ -564,7 +570,8 @@ Detailed Explanation How to add Read Replica to DB instance:
 
 </details>
 
-================ SECTION 6. ROUTE53, DNS101, Routing Policies, Tips ========================
+Section 6: ROUTE53, DNS101, Routing Policies, Tips
+===
 
 <details>
 <summary>Section 6: DNS101 & Route53</summary>
@@ -603,7 +610,8 @@ Routing Types:
 
 </details>
 
-================== SECTION 7. VPC, Custom VPC, Configuration ===============================
+Section 7: VPC, Custom VPC, Configuration
+===
 
 <details>
 <summary>Section 7: VPC General Information and Exam Tip</summary>
@@ -651,7 +659,7 @@ To create SSH access to private EC2 instance though public EC2 - we have to use 
 </details>
 
 <details>
-<summary>Section 7: NAT & Access Control List in VPC</summary>
+<summary>Section 7: NAT in VPC</summary>
 
 Network address translation (NAT) is a method of remapping one IP address space into another by modifying
  network address information in the IP header of packets while they are in transit across a traffic routing device.
@@ -686,3 +694,63 @@ And, of course, it's a point of failure.
 ![NAT10](readme-images/Section%207/NAT/VPC-NAT_Gateway_Tips_12.jpg)
 
 </details>
+
+<details>
+<summary>Section 7: Access Control List (ACL) in VPC</summary>
+
+![ACL](readme-images/Section%207/ACL/InboundRules_1.jpg)
+![ACL](readme-images/Section%207/ACL/create_new_ACL_2.jpg)
+![ACL](readme-images/Section%207/ACL/New_ACL_with_Deny_rules_3.jpg)
+![ACL](readme-images/Section%207/ACL/Associate_your_ACL_with_Subnets_4.jpg)
+![ACL](readme-images/Section%207/ACL/Associate_your_ACL_with_Subnets_5.jpg)
+![ACL](readme-images/Section%207/ACL/ACL_edit-rules-6.jpg)
+
+Pay Attention on Ephemeral Port usage in outbound rules:
+On servers, ephemeral ports may also be used as the port assignment on the server end of a communication. This is
+done to continue communications with a client that initially connected to one of the server's well-known service 
+listening ports.
+
+![ACL](readme-images/Section%207/ACL/ACL_edit-rules-outbound_7.jpg)
+
+We really need them for FTP, SSH, Http sessions and so on (and because NAT gateway uses them as well).
+More information: [Ephemeral Port](https://en.wikipedia.org/wiki/Ephemeral_port)
+About Ephemeral port ranges for AWS: 
+[Ephemeral Port Ranges](https://docs.aws.amazon.com/vpc/latest/userguide/vpc-network-acls.html)
+
+![ACL](readme-images/Section%207/ACL/ACL_Allow_Deny_Rules_Example_8.jpg)
+![ACL](readme-images/Section%207/ACL/ACL_Allow_Deny_Rules_Example_9.jpg)
+![ACL](readme-images/Section%207/ACL/ACL_SubnetHasOneACL_but_OneACLCouldHaveMultipleSubnets_10.jpg)
+
+Exam tips:
+
+![ACL](readme-images/Section%207/ACL/ACL_Tips_11.jpg)
+![ACL](readme-images/Section%207/ACL/ACL_Tips_12.jpg)
+
+</details>
+
+<details>
+<summary>Section 7: Elastic Load Balancing, VERY QUICK TIPS</summary>
+
+![ELB](readme-images/Section%207/ELB/Quick_tips1.jpg)
+![ELB](readme-images/Section%207/ELB/Quick_Types_2.jpg)
+![ELB](readme-images/Section%207/ELB/Quick_Create_Http_note-3.jpg)
+
+</details>
+
+<details>
+<summary>Section 7: VPC Flow Logs</summary>
+
+![Flow_Logs](readme-images/Section%207/Flow_Logs/Logs_1.jpg)
+![Flow_Logs](readme-images/Section%207/Flow_Logs/Logs_Create_2.jpg)
+![Flow_Logs](readme-images/Section%207/Flow_Logs/Logs_Create_3.jpg)
+![Flow_Logs](readme-images/Section%207/Flow_Logs/Logs_Create_Log_Group_4.jpg)
+![Flow_Logs](readme-images/Section%207/Flow_Logs/Logs_Create_Log_5.jpg)
+![Flow_Logs](readme-images/Section%207/Flow_Logs/Logs_SetUpPermissionsIAM_For_Logs_6.jpg)
+![Flow_Logs](readme-images/Section%207/Flow_Logs/Logs_Create_Log_7.jpg)
+
+Exam tips:
+
+![Flow_Logs](readme-images/Section%207/Flow_Logs/Logs_tip1.jpg)
+![Flow_Logs](readme-images/Section%207/Flow_Logs/Logs_tip2.jpg)
+
+</details>>
