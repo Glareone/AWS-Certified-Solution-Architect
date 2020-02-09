@@ -754,3 +754,15 @@ Exam tips:
 ![Flow_Logs](readme-images/Section%207/Flow_Logs/Logs_tip2.jpg)
 
 </details>
+
+<details>
+<summary>Section 7: Bastion</summary>
+
+Bastion is EC2 which allows you safety access to another EC2 instances using SSH or RDP.
+[Bastion Link](https://aws.amazon.com/blogs/security/controlling-network-access-to-ec2-instances-using-a-bastion-server/)
+
+![Bastion](readme-images/Section%207/Bastion/Bastion_1.jpg)
+![Bastion](readme-images/Section%207/Bastion/Bastion_2.jpg)
+![Bastion](readme-images/Section%207/Bastion/Bastion_tips1.jpg)
+
+</details>
