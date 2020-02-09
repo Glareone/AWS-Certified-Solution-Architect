@@ -727,3 +727,12 @@ Exam tips:
 ![ACL](readme-images/Section%207/ACL/ACL_Tips_12.jpg)
 
 </details>
+
+<details>
+<summary>Section 7: Elastic Load Balancing, VERY QUICK TIPS</summary>
+
+![ELB](readme-images/Section%207/ELB/Quick_tips1.jpg)
+![ELB](readme-images/Section%207/ELB/Quick_Types_2.jpg)
+![ELB](readme-images/Section%207/ELB/Quick_Create_Http_note-3.jpg)
+
+</details>>
