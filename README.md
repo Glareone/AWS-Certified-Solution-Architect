@@ -735,4 +735,22 @@ Exam tips:
 ![ELB](readme-images/Section%207/ELB/Quick_Types_2.jpg)
 ![ELB](readme-images/Section%207/ELB/Quick_Create_Http_note-3.jpg)
 
+</details>
+
+<details>
+<summary>Section 7: VPC Flow Logs</summary>
+
+![Flow_Logs](readme-images/Section%207/Flow_Logs/Logs_1.jpg)
+![Flow_Logs](readme-images/Section%207/Flow_Logs/Logs_Create_2.jpg)
+![Flow_Logs](readme-images/Section%207/Flow_Logs/Logs_Create_3.jpg)
+![Flow_Logs](readme-images/Section%207/Flow_Logs/Logs_Create_Log_Group_4.jpg)
+![Flow_Logs](readme-images/Section%207/Flow_Logs/Logs_Create_Log_5.jpg)
+![Flow_Logs](readme-images/Section%207/Flow_Logs/Logs_SetUpPermissionsIAM_For_Logs_6.jpg)
+![Flow_Logs](readme-images/Section%207/Flow_Logs/Logs_Create_Log_7.jpg)
+
+Exam tips:
+
+![Flow_Logs](readme-images/Section%207/Flow_Logs/Logs_tip1.jpg)
+![Flow_Logs](readme-images/Section%207/Flow_Logs/Logs_tip2.jpg)
+
 </details>>
