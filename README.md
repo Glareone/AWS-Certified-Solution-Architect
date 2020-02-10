@@ -766,3 +766,12 @@ Bastion is EC2 which allows you safety access to another EC2 instances using SSH
 ![Bastion](readme-images/Section%207/Bastion/Bastion_tips1.jpg)
 
 </details>
+
+<details>
+<summary>Section 7: Direct Connection</summary>
+
+![Direct_Connect](readme-images/Section%207/Direct%20Connect/Direct_connect_1.jpg)
+![Direct_Connect](readme-images/Section%207/Direct%20Connect/Direct_connect_2.jpg)
+![Direct_Connect](readme-images/Section%207/Direct%20Connect/Direct_connect_3.jpg)
+
+</details>
