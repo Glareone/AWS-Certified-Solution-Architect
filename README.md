@@ -754,3 +754,106 @@ Exam tips:
 ![Flow_Logs](readme-images/Section%207/Flow_Logs/Logs_tip2.jpg)
 
 </details>
+
+<details>
+<summary>Section 7: Bastion</summary>
+
+Bastion is EC2 which allows you safety access to another EC2 instances using SSH or RDP.
+[Bastion Link](https://aws.amazon.com/blogs/security/controlling-network-access-to-ec2-instances-using-a-bastion-server/)
+
+![Bastion](readme-images/Section%207/Bastion/Bastion_1.jpg)
+![Bastion](readme-images/Section%207/Bastion/Bastion_2.jpg)
+![Bastion](readme-images/Section%207/Bastion/Bastion_tips1.jpg)
+
+</details>
+
+<details>
+<summary>Section 7: Direct Connection</summary>
+
+![Direct_Connect](readme-images/Section%207/Direct%20Connect/Direct_connect_1.jpg)
+![Direct_Connect](readme-images/Section%207/Direct%20Connect/Direct_connect_2.jpg)
+![Direct_Connect](readme-images/Section%207/Direct%20Connect/Direct_connect_3.jpg)
+
+</details>
+
+<details>
+<summary>Section 7: VPC Endpoints</summary>
+
+![Virtual_Endpoints](readme-images/Section%207/Virtual%20Endpoints/Virtual_Endpoints_1.jpg)
+
+Two types of Endpoints:
+Interface and Gateway.
+
+<b>1. Interface:</b>
+![Virtual_Endpoints](readme-images/Section%207/Virtual%20Endpoints/Virtual_Endpoints_Interface_Type_2.jpg)
+
+<b>2. Gateway:</b>
+![Virtual_Endpoints](readme-images/Section%207/Virtual%20Endpoints/Virtual_Endpoints_Gateway_Type_3.jpg)
+<b>Incorrect way:</b>
+![Virtual_Endpoints](readme-images/Section%207/Virtual%20Endpoints/Virtual_Endpoints_Gateway_4.jpg)
+<b>Correct:</b>
+![Virtual_Endpoints](readme-images/Section%207/Virtual%20Endpoints/Virtual_Endpoints_Gateway_5.jpg)
+
+How to do that:
+1. Create a role to get full access to S3 Bucket.
+![Virtual_Endpoints](readme-images/Section%207/Virtual%20Endpoints/Virtual_Endpoints_Gateway_Creation_6.jpg)
+![Virtual_Endpoints](readme-images/Section%207/Virtual%20Endpoints/Virtual_Endpoints_Gateway_Creation_7.jpg)
+![Virtual_Endpoints](readme-images/Section%207/Virtual%20Endpoints/Virtual_Endpoints_Gateway_Creation_8.jpg)
+
+2. Attach newly created "S3 admin role to EC2":
+![Virtual_Endpoints](readme-images/Section%207/Virtual%20Endpoints/Virtual_Endpoints_Gateway_Creation_9.jpg)
+
+3. Check out the ACL Table. We should be confident that we don't have any restrictions to communicate with other services.
+You could do that in VPC menu, Access Control List configuration / attach default ACL to our private subnet.
+
+4*. Using S3 address - make manipulation with data on S3.
+S3 address example is: <b>s3://YOUR_BUCKET_NAME</b>
+It will work using NAT Gateway and Route in Route table:
+
+![Virtual_Endpoints](readme-images/Section%207/Virtual%20Endpoints/Virtual_Endpoints_Gateway_Creation_10.jpg)
+![Virtual_Endpoints](readme-images/Section%207/Virtual%20Endpoints/Virtual_Endpoints_Gateway_Creation_11.jpg)
+
+It won't work without internet and connection to NAT Gateway.
+That's why we need to configure our Endpoint.
+
+5. Make Virtual Endpoint to get access to S3 Bucket without using NAT Gateway.
+![Virtual_Endpoints](readme-images/Section%207/Virtual%20Endpoints/Virtual_Endpoints_Gateway_Creation_12.jpg)
+![Virtual_Endpoints](readme-images/Section%207/Virtual%20Endpoints/Virtual_Endpoints_Gateway_Creation_13.jpg)
+![Virtual_Endpoints](readme-images/Section%207/Virtual%20Endpoints/Virtual_Endpoints_Gateway_Creation_14.jpg)
+![Virtual_Endpoints](readme-images/Section%207/Virtual%20Endpoints/Virtual_Endpoints_Gateway_Creation_15.jpg)
+![Virtual_Endpoints](readme-images/Section%207/Virtual%20Endpoints/Virtual_Endpoints_Gateway_Creation_16.jpg)
+![Virtual_Endpoints](readme-images/Section%207/Virtual%20Endpoints/Virtual_Endpoints_Gateway_Creation_17.jpg)
+
+</details>
+
+<details>
+<summary>Section 7: VPC Summary</summary>
+
+Security Groups Additional info: [Link](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ec2-security-groups.html)
+To Check IP-addresses and masks: [CIDR.XYZ](https://cidr.xyz/)
+
+Security Group Rules:
+* The rules of a security group control the inbound traffic that's allowed to reach the instances that are associated with the security group and the outbound traffic that's allowed to leave them.
+* The following are the characteristics of security group rules:
+* By default, security groups allow all outbound traffic.
+* Security group rules are always permissive; you can't create rules that deny access.
+* Security groups are stateful — if you send a request from your instance, the response traffic for that request is allowed to flow in regardless of inbound security group rules. 
+* For VPC security groups, this also means that responses to allowed inbound traffic are allowed to flow out, regardless of outbound rules. For more information, see Connection Tracking.
+* You can add and remove rules at any time. Your changes are automatically applied to the instances associated with the security group.
+
+![ExamTips](readme-images/Section%207/Virtual%20Endpoints/VPC_Tips_1.jpg)
+![ExamTips](readme-images/Section%207/Virtual%20Endpoints/VPC_Tips_2.jpg)
+![ExamTips](readme-images/Section%207/Virtual%20Endpoints/VPC_Tips_3.jpg)
+![ExamTips](readme-images/Section%207/Virtual%20Endpoints/VPC_Tips_4.jpg)
+![ExamTips](readme-images/Section%207/Virtual%20Endpoints/VPC_Tips_5.jpg)
+![ExamTips](readme-images/Section%207/Virtual%20Endpoints/VPC_Tips_ACL_6.jpg)
+![ExamTips](readme-images/Section%207/Virtual%20Endpoints/VPC_Tips_ACL_7.jpg)
+![ExamTips](readme-images/Section%207/Virtual%20Endpoints/VPC_Tips_Load_Balancer_8.jpg)
+![ExamTips](readme-images/Section%207/Virtual%20Endpoints/VPC_Tips_FlowLogs_9.jpg)
+![ExamTips](readme-images/Section%207/Virtual%20Endpoints/VPC_Tips_FlowLogs_10.jpg)
+![ExamTips](readme-images/Section%207/Virtual%20Endpoints/VPC_Tips_Bastion_11.jpg)
+![ExamTips](readme-images/Section%207/Virtual%20Endpoints/VPC_Tips_DirectConnect_12.jpg)
+![ExamTips](readme-images/Section%207/Virtual%20Endpoints/VPC_Tips_VPC_Endpoint_13.jpg)
+
+
+</details>
