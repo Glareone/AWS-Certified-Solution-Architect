@@ -830,6 +830,7 @@ That's why we need to configure our Endpoint.
 <summary>Section 7: VPC Summary</summary>
 
 Security Groups Additional info: [Link](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ec2-security-groups.html)
+To Check IP-addresses and masks: [CIDR.XYZ](https://cidr.xyz/)
 
 Security Group Rules:
 * The rules of a security group control the inbound traffic that's allowed to reach the instances that are associated with the security group and the outbound traffic that's allowed to leave them.
