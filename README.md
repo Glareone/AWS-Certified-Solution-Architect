@@ -775,3 +775,53 @@ Bastion is EC2 which allows you safety access to another EC2 instances using SSH
 ![Direct_Connect](readme-images/Section%207/Direct%20Connect/Direct_connect_3.jpg)
 
 </details>
+
+<details>
+<summary>Section 7: VPC Endpoints</summary>
+
+![Virtual_Endpoints](readme-images/Section%207/Virtual%20Endpoints/Virtual_Endpoints_1.jpg)
+
+Two types of Endpoints:
+Interface and Gateway.
+
+<b>1. Interface:</b>
+![Virtual_Endpoints](readme-images/Section%207/Virtual%20Endpoints/Virtual_Endpoints_Interface_Type_2.jpg)
+
+<b>2. Gateway:</b>
+![Virtual_Endpoints](readme-images/Section%207/Virtual%20Endpoints/Virtual_Endpoints_Gateway_Type_3.jpg)
+<b>Incorrect way:</b>
+![Virtual_Endpoints](readme-images/Section%207/Virtual%20Endpoints/Virtual_Endpoints_Gateway_4.jpg)
+<b>Correct:</b>
+![Virtual_Endpoints](readme-images/Section%207/Virtual%20Endpoints/Virtual_Endpoints_Gateway_5.jpg)
+
+How to do that:
+1. Create a role to get full access to S3 Bucket.
+![Virtual_Endpoints](readme-images/Section%207/Virtual%20Endpoints/Virtual_Endpoints_Gateway_Creation_6.jpg)
+![Virtual_Endpoints](readme-images/Section%207/Virtual%20Endpoints/Virtual_Endpoints_Gateway_Creation_7.jpg)
+![Virtual_Endpoints](readme-images/Section%207/Virtual%20Endpoints/Virtual_Endpoints_Gateway_Creation_8.jpg)
+
+2. Attach newly created "S3 admin role to EC2":
+![Virtual_Endpoints](readme-images/Section%207/Virtual%20Endpoints/Virtual_Endpoints_Gateway_Creation_9.jpg)
+
+3. Check out the ACL Table. We should be confident that we don't have any restrictions to communicate with other services.
+You could do that in VPC menu, Access Control List configuration / attach default ACL to our private subnet.
+
+4*. Using S3 address - make manipulation with data on S3.
+S3 address example is: <b>s3://YOUR_BUCKET_NAME</b>
+It will work using NAT Gateway and Route in Route table:
+
+![Virtual_Endpoints](readme-images/Section%207/Virtual%20Endpoints/Virtual_Endpoints_Gateway_Creation_10.jpg)
+![Virtual_Endpoints](readme-images/Section%207/Virtual%20Endpoints/Virtual_Endpoints_Gateway_Creation_11.jpg)
+
+It won't work without internet and connection to NAT Gateway.
+That's why we need to configure our Endpoint.
+
+5. Make Virtual Endpoint to get access to S3 Bucket without using NAT Gateway.
+![Virtual_Endpoints](readme-images/Section%207/Virtual%20Endpoints/Virtual_Endpoints_Gateway_Creation_12.jpg)
+![Virtual_Endpoints](readme-images/Section%207/Virtual%20Endpoints/Virtual_Endpoints_Gateway_Creation_13.jpg)
+![Virtual_Endpoints](readme-images/Section%207/Virtual%20Endpoints/Virtual_Endpoints_Gateway_Creation_14.jpg)
+![Virtual_Endpoints](readme-images/Section%207/Virtual%20Endpoints/Virtual_Endpoints_Gateway_Creation_15.jpg)
+![Virtual_Endpoints](readme-images/Section%207/Virtual%20Endpoints/Virtual_Endpoints_Gateway_Creation_16.jpg)
+![Virtual_Endpoints](readme-images/Section%207/Virtual%20Endpoints/Virtual_Endpoints_Gateway_Creation_17.jpg)
+
+</details>
