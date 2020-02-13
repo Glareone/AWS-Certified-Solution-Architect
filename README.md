@@ -857,3 +857,21 @@ Security Group Rules:
 
 
 </details>
+
+Section 8: High-Availability Architecture, Load Balancing, CloudFormation, BeansTalk
+===
+
+<details>
+<summary>Section 8: Elastic Load Balancing</summary>
+
+![ELB](readme-images/Section%208/Load%20Balancing/Types_1.jpg)
+![ELB](readme-images/Section%208/Load%20Balancing/Application_load_balancing_2.jpg)
+![ELB](readme-images/Section%208/Load%20Balancing/Network_Load_Balancing_3.jpg)
+![ELB](readme-images/Section%208/Load%20Balancing/Classical_load_balancing_4.jpg)
+![ELB](readme-images/Section%208/Load%20Balancing/Classical_ELB_issue_5.jpg)
+![ELB](readme-images/Section%208/Load%20Balancing/X-Forwarded-For_Header_6.jpg)
+
+Lab Tips:
+
+
+</details>
