@@ -857,3 +857,71 @@ Security Group Rules:
 
 
 </details>
+
+Section 8: High-Availability Architecture, Load Balancing, Target Groups, CloudFormation, BeansTalk
+===
+
+<details>
+<summary>Section 8: Elastic Load Balancing + Target Groups</summary>
+
+Official documentation: 
+[ELB Documentation](https://docs.aws.amazon.com/elasticloadbalancing/latest/userguide/what-is-load-balancing.html)
+
+![ELB](readme-images/Section%208/Load%20Balancing/Types_1.jpg)
+![ELB](readme-images/Section%208/Load%20Balancing/Application_load_balancing_2.jpg)
+![ELB](readme-images/Section%208/Load%20Balancing/Network_Load_Balancing_3.jpg)
+![ELB](readme-images/Section%208/Load%20Balancing/Classical_load_balancing_4.jpg)
+![ELB](readme-images/Section%208/Load%20Balancing/Classical_ELB_issue_5.jpg)
+![ELB](readme-images/Section%208/Load%20Balancing/X-Forwarded-For_Header_6.jpg)
+
+Load Balancer and Health Check diagram:
+[ELB_Diagram](/files/Load_Balancer&Health_Check_Diagram.pdf)
+
+Registered Instances for Your Classic Load Balancer: 
+[link](https://docs.aws.amazon.com/elasticloadbalancing/latest/classic/elb-backend-instances.html)
+
+<b>Lab Tips:</b>
+
+Bootstrap script: [link](files/ELB_Lab_1_bootstrap_script.txt)
+
+We have to launch 2 EC2 instances in default VPC, but in different AZ Zones.
+![ELB_Lab](readme-images/Section%208/Load%20Balancing/ELB_LAB_1.jpg)
+
+Tags: Name - Web01 and Web02
+Security Group - WebDMZ
+![ELB_Lab](readme-images/Section%208/Load%20Balancing/ELB_LAB_2.jpg)
+![ELB_Lab](readme-images/Section%208/Load%20Balancing/ELB_LAB_Create_3.jpg)
+![ELB_Lab](readme-images/Section%208/Load%20Balancing/ELB_LAB_Create_4.jpg)
+![ELB_Lab](readme-images/Section%208/Load%20Balancing/ELB_LAB_Create_5.jpg)
+![ELB_Lab](readme-images/Section%208/Load%20Balancing/ELB_LAB_Create_6.jpg)
+![ELB_Lab](readme-images/Section%208/Load%20Balancing/ELB_LAB_Create_7.jpg)
+
+Keep in mind that adding Elastic Load Balancer moves you out of free-tier (or barely free-tier)
+![ELB_Lab](readme-images/Section%208/Load%20Balancing/ELB_LAB_Create_8.jpg)
+![ELB_Lab](readme-images/Section%208/Load%20Balancing/ELB_LAB_Create_9.jpg)
+![ELB_Lab](readme-images/Section%208/Load%20Balancing/ELB_LAB_Create_10.jpg)
+![ELB_Lab](readme-images/Section%208/Load%20Balancing/ELB_LAB_Target_Group_11.jpg)
+![ELB_Lab](readme-images/Section%208/Load%20Balancing/ELB_LAB_Target_Group_12.jpg)
+![ELB_Lab](readme-images/Section%208/Load%20Balancing/ELB_LAB_app_load_balancer_13.jpg)
+![ELB_Lab](readme-images/Section%208/Load%20Balancing/ELB_LAB_app_load_balancer_14.jpg)
+![ELB_Lab](readme-images/Section%208/Load%20Balancing/ELB_LAB_app_load_balancer_15.jpg)
+![ELB_Lab](readme-images/Section%208/Load%20Balancing/ELB_LAB_app_load_balancer_16.jpg)
+![ELB_Lab](readme-images/Section%208/Load%20Balancing/ELB_LAB_app_load_balancer_registered_targets_add_17.jpg)
+![ELB_Lab](readme-images/Section%208/Load%20Balancing/ELB_LAB_app_load_balancer_registered_targets_add_18.jpg)
+![ELB_Lab](readme-images/Section%208/Load%20Balancing/ELB_LAB_app_load_balancer_registered_targets_add_19.jpg)
+![ELB_Lab](readme-images/Section%208/Load%20Balancing/Application_load_balancing_edit_rules_20.jpg)
+![ELB_Lab](readme-images/Section%208/Load%20Balancing/Application_load_balancing_edit_rules_21.jpg)
+![ELB_Lab](readme-images/Section%208/Load%20Balancing/Application_load_balancing_test_22.jpg)
+![ELB_Lab](readme-images/Section%208/Load%20Balancing/Application_load_balancing_tips_23.jpg)
+
+<b>ADVANCED LOAD BALANCING PART:</b>
+![ELB_Advanced](readme-images/Section%208/Load%20Balancing/Sticky_session_1.jpg)
+![ELB_Advanced](readme-images/Section%208/Load%20Balancing/Sticky_session_2.jpg)
+![ELB_Advanced](readme-images/Section%208/Load%20Balancing/Cross_Zone_Load_Balancing_3.jpg)
+![ELB_Advanced](readme-images/Section%208/Load%20Balancing/Cross_Zone_Load_Balancing_4.jpg)
+![ELB_Advanced](readme-images/Section%208/Load%20Balancing/Cross_Zone_Load_Balancing_5.jpg)
+![ELB_Advanced](readme-images/Section%208/Load%20Balancing/Path_patterns_routing_6.jpg)
+![ELB_Advanced](readme-images/Section%208/Load%20Balancing/Path_patterns_routing_7.jpg)
+![ELB_Advanced](readme-images/Section%208/Load%20Balancing/Exam_Tips_8.jpg)
+
+</details>
