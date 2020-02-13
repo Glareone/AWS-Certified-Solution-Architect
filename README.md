@@ -915,5 +915,13 @@ Keep in mind that adding Elastic Load Balancer moves you out of free-tier (or ba
 ![ELB_Lab](readme-images/Section%208/Load%20Balancing/Application_load_balancing_tips_23.jpg)
 
 <b>ADVANCED LOAD BALANCING PART:</b>
+![ELB_Advanced](readme-images/Section%208/Load%20Balancing/Sticky_session_1.jpg)
+![ELB_Advanced](readme-images/Section%208/Load%20Balancing/Sticky_session_2.jpg)
+![ELB_Advanced](readme-images/Section%208/Load%20Balancing/Cross_Zone_Load_Balancing_3.jpg)
+![ELB_Advanced](readme-images/Section%208/Load%20Balancing/Cross_Zone_Load_Balancing_4.jpg)
+![ELB_Advanced](readme-images/Section%208/Load%20Balancing/Cross_Zone_Load_Balancing_5.jpg)
+![ELB_Advanced](readme-images/Section%208/Load%20Balancing/Path_patterns_routing_6.jpg)
+![ELB_Advanced](readme-images/Section%208/Load%20Balancing/Path_patterns_routing_7.jpg)
+![ELB_Advanced](readme-images/Section%208/Load%20Balancing/Exam_Tips_8.jpg)
 
 </details>
