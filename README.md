@@ -962,32 +962,90 @@ A lot of questions based on High Availability design.
 We need to build the next:
 ![HA_Architecture_Lab](readme-images/Section%208/HA_Architecture/Lab/Schema_1.jpg)
 
-1 step - we have to build our S3_buckets:
+#####1 step - we have to build our S3_buckets:
 ![HA_Architecture_Lab](readme-images/Section%208/HA_Architecture/Lab/S3_2.jpg)
 
-2 Security Groups for buckets and MySQL RDS storage:
+#####2 Security Groups for buckets and MySQL RDS storage:
 ![HA_Architecture_Lab](readme-images/Section%208/HA_Architecture/Lab/SecutiryGroups_For_RDS_and_S3_5.jpg)
 
-3 step - CloudFront:
+#####3 step - CloudFront:
 ![HA_Architecture_Lab](readme-images/Section%208/HA_Architecture/Lab/CloudFront_3.jpg)
 ![HA_Architecture_Lab](readme-images/Section%208/HA_Architecture/Lab/CloudFront_4.jpg)
 
-4 step - RDS:
+#####4 step - RDS:
 ![HA_Architecture_Lab](readme-images/Section%208/HA_Architecture/Lab/RDS_6.jpg)
 ![HA_Architecture_Lab](readme-images/Section%208/HA_Architecture/Lab/RDS_7.jpg)
 ![HA_Architecture_Lab](readme-images/Section%208/HA_Architecture/Lab/RDS_8.jpg)
 ![HA_Architecture_Lab](readme-images/Section%208/HA_Architecture/Lab/RDS_9.jpg)
 
-5 step - IAM and Security Groups:
+#####5 step - IAM and Security Groups:
 ![HA_Architecture_Lab](readme-images/Section%208/HA_Architecture/Lab/IAM_10.jpg)
 ![HA_Architecture_Lab](readme-images/Section%208/HA_Architecture/Lab/IAM_11.jpg)
 ![HA_Architecture_Lab](readme-images/Section%208/HA_Architecture/Lab/IAM_12.jpg)
 
-6 step - provisioning our EC2 instance:
+#####6 step - provisioning our EC2 instance:
 ![HA_Architecture_Lab](readme-images/Section%208/HA_Architecture/Lab/EC2_13.jpg)
 ![HA_Architecture_Lab](readme-images/Section%208/HA_Architecture/Lab/EC2_14.jpg)
 ![HA_Architecture_Lab](readme-images/Section%208/HA_Architecture/Lab/EC2_15.jpg)
 
+Bootstrap file: [file](files/HA_Architecture_bootstrap_for_EC2.sh)
+
+
 Wait while CloudFront and RDS instance are ready to move further.
+
+#####7 step - WordPress configuration:
+![HA_Architecture_Lab](readme-images/Section%208/HA_Architecture/Lab/WordPress_16.jpg)
+
+You must deploy wp-config.php file manually from ssh console if it can't do that automatically under your
+security group policies (but we opened 3306 port for this purposes)
+
+#####8 - create our post on wordpress with pictures and check where they store. They will be right in EC2:
+We need to move them to S3 and use our CloudFront to store and distribute them faster.
+
+* Copy media files from directory to media S3 bucket:
+Command from SSH to copy media files to S3:
+![HA_Architecture_Lab](readme-images/Section%208/HA_Architecture/Lab/Copy_recursive_from_wordpress_media_to_s3_bucket_17.jpg)
+
+* Copy all files to code S3 bucket:
+![HA_Architecture_Lab](readme-images/Section%208/HA_Architecture/Lab/Copy_recursive_from_wordpress_all_to_another_s3_bucket_18.jpg)
+
+* then we need to move our storage to S3s.
+We have to modify ".htaccess" file, here we will find our rewrite rule. 
+Default configuration:
+![HA_Architecture_Lab](readme-images/Section%208/HA_Architecture/Lab/htaccess_write_configuration_19.jpg)
+We have to paste our CloudFront domain name.
+![HA_Architecture_Lab](readme-images/Section%208/HA_Architecture/Lab/CloudFront_Domain_name_20.jpg)
+And Paste here:
+![HA_Architecture_Lab](readme-images/Section%208/HA_Architecture/Lab/Rewrite_this_21.jpg)
+
+Sync htaccess changes with S3-code-bucket:
+![HA_Architecture_Lab](readme-images/Section%208/HA_Architecture/Lab/sync_changes_22.jpg)
+
+* to move all next changes right to S3 we have to manage our Httpd (apache):
+![HA_Architecture_Lab](readme-images/Section%208/HA_Architecture/Lab/httpd_manage_to_work_with_s3_23.jpg)
+nano httpd.conf
+
+![HA_Architecture_Lab](readme-images/Section%208/HA_Architecture/Lab/httpd.config_AllowOverride_rule_24.jpg)
+
+restart apache: service httpd restart
+
+#####9 - S3 policies to make it public:
+![HA_Architecture_Lab](readme-images/Section%208/HA_Architecture/Lab/media_S3_policy_25.jpg)
+![HA_Architecture_Lab](readme-images/Section%208/HA_Architecture/Lab/media_S3_policy_26.jpg)
+
+#####10 - Load Balancing:
+![HA_Architecture_Lab](readme-images/Section%208/HA_Architecture/Lab/LoadBalancer_27.jpg)
+![HA_Architecture_Lab](readme-images/Section%208/HA_Architecture/Lab/LoadBalancer_28.jpg)
+![HA_Architecture_Lab](readme-images/Section%208/HA_Architecture/Lab/LoadBalancer_29.jpg)
+![HA_Architecture_Lab](readme-images/Section%208/HA_Architecture/Lab/LoadBalancer_30.jpg)
+
+#####11 - Route53:
+![HA_Architecture_Lab](readme-images/Section%208/HA_Architecture/Lab/Route53_31.jpg)
+![HA_Architecture_Lab](readme-images/Section%208/HA_Architecture/Lab/Route53_32.jpg)
+![HA_Architecture_Lab](readme-images/Section%208/HA_Architecture/Lab/Route53_33.jpg)
+
+#####12 - TargetGroup:
+![HA_Architecture_Lab](readme-images/Section%208/HA_Architecture/Lab/TargetGroups_34.jpg)
+![HA_Architecture_Lab](readme-images/Section%208/HA_Architecture/Lab/TargetGroup_35.jpg)
 
 </details>
