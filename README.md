@@ -943,5 +943,15 @@ for the purposes of automatic scaling and management.
 ![ASG](readme-images/Section%208/LaunchConfiguration,AutoScaling%20Groups/AutoScalingGroup_configuration_8.jpg)
 ![ASG](readme-images/Section%208/LaunchConfiguration,AutoScaling%20Groups/AutoScalingGroup_configuration_9.jpg)
 
+</details>
+
+<details>
+<summary>Section 8: HA Architecture</summary>
+
+A lot of questions based on High Availability design.
+![HA_Architecture](readme-images/Section%208/HA_Architecture/HA_1.jpg)
+![HA_Architecture](readme-images/Section%208/HA_Architecture/HA_2.jpg)
+![HA_Architecture](readme-images/Section%208/HA_Architecture/HA_3.jpg)
+![HA_Architecture](readme-images/Section%208/HA_Architecture/HA_4.jpg)
 
 </details>
