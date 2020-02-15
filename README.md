@@ -203,7 +203,7 @@ Section 4: EC2
 </details>
 
 <details>
-<summary>Section4: Lab1-tips</summary>
+<summary>Section4: Lab, tips</summary>
 
 To create SSH public key for EC2 you need to run next command in command line:
 ssh-keygen -y -f Glareone-EC2-Lab1-Key-Pair.pem > MyKP.pub
@@ -426,7 +426,7 @@ is already running, the DeleteOnTermination attribute must be changed using the 
 
 </details>
 
-Section 5: Databases On AWS.
+Section 5: Databases On AWS
 ===
 
 <details>
