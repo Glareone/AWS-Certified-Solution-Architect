@@ -925,3 +925,23 @@ Keep in mind that adding Elastic Load Balancer moves you out of free-tier (or ba
 ![ELB_Advanced](readme-images/Section%208/Load%20Balancing/Exam_Tips_8.jpg)
 
 </details>
+
+<details>
+<summary>Section 8: Launch Configurations, Auto Scaling Groups</summary>
+
+Description: an Auto Scaling Group contains a collection of Amazon EC2 instances that are treated as a logical grouping
+for the purposes of automatic scaling and management.
+[link](https://docs.aws.amazon.com/autoscaling/ec2/userguide/AutoScalingGroup.html)
+
+![ASG](readme-images/Section%208/LaunchConfiguration,AutoScaling%20Groups/LaunchConfiguration_1.jpg)
+![ASG](readme-images/Section%208/LaunchConfiguration,AutoScaling%20Groups/LaunchConfiguration_2.jpg)
+![ASG](readme-images/Section%208/LaunchConfiguration,AutoScaling%20Groups/AutoScalingGroup_configuration_3.jpg)
+![ASG](readme-images/Section%208/LaunchConfiguration,AutoScaling%20Groups/AutoScalingGroup_configuration_4.jpg)
+![ASG](readme-images/Section%208/LaunchConfiguration,AutoScaling%20Groups/AutoScalingGroup_configuration_5.jpg)
+![ASG](readme-images/Section%208/LaunchConfiguration,AutoScaling%20Groups/AutoScalingGroup_configuration_6.jpg)
+![ASG](readme-images/Section%208/LaunchConfiguration,AutoScaling%20Groups/AutoScalingGroup_configuration_7.jpg)
+![ASG](readme-images/Section%208/LaunchConfiguration,AutoScaling%20Groups/AutoScalingGroup_configuration_8.jpg)
+![ASG](readme-images/Section%208/LaunchConfiguration,AutoScaling%20Groups/AutoScalingGroup_configuration_9.jpg)
+
+
+</details>
