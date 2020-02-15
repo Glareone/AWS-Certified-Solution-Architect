@@ -955,3 +955,39 @@ A lot of questions based on High Availability design.
 ![HA_Architecture](readme-images/Section%208/HA_Architecture/HA_4.jpg)
 
 </details>
+
+<details>
+<summary>Section 8: HA Architecture, Lab</summary>
+
+We need to build the next:
+![HA_Architecture_Lab](readme-images/Section%208/HA_Architecture/Lab/Schema_1.jpg)
+
+1 step - we have to build our S3_buckets:
+![HA_Architecture_Lab](readme-images/Section%208/HA_Architecture/Lab/S3_2.jpg)
+
+2 Security Groups for buckets and MySQL RDS storage:
+![HA_Architecture_Lab](readme-images/Section%208/HA_Architecture/Lab/SecutiryGroups_For_RDS_and_S3_5.jpg)
+
+3 step - CloudFront:
+![HA_Architecture_Lab](readme-images/Section%208/HA_Architecture/Lab/CloudFront_3.jpg)
+![HA_Architecture_Lab](readme-images/Section%208/HA_Architecture/Lab/CloudFront_4.jpg)
+
+4 step - RDS:
+![HA_Architecture_Lab](readme-images/Section%208/HA_Architecture/Lab/RDS_6.jpg)
+![HA_Architecture_Lab](readme-images/Section%208/HA_Architecture/Lab/RDS_7.jpg)
+![HA_Architecture_Lab](readme-images/Section%208/HA_Architecture/Lab/RDS_8.jpg)
+![HA_Architecture_Lab](readme-images/Section%208/HA_Architecture/Lab/RDS_9.jpg)
+
+5 step - IAM and Security Groups:
+![HA_Architecture_Lab](readme-images/Section%208/HA_Architecture/Lab/IAM_10.jpg)
+![HA_Architecture_Lab](readme-images/Section%208/HA_Architecture/Lab/IAM_11.jpg)
+![HA_Architecture_Lab](readme-images/Section%208/HA_Architecture/Lab/IAM_12.jpg)
+
+6 step - provisioning our EC2 instance:
+![HA_Architecture_Lab](readme-images/Section%208/HA_Architecture/Lab/EC2_13.jpg)
+![HA_Architecture_Lab](readme-images/Section%208/HA_Architecture/Lab/EC2_14.jpg)
+![HA_Architecture_Lab](readme-images/Section%208/HA_Architecture/Lab/EC2_15.jpg)
+
+Wait while CloudFront and RDS instance are ready to move further.
+
+</details>
