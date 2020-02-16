@@ -1049,3 +1049,12 @@ restart apache: service httpd restart
 ![HA_Architecture_Lab](readme-images/Section%208/HA_Architecture/Lab/TargetGroup_35.jpg)
 
 </details>
+
+<details>
+<summary>Section 8: Resilience and Autoscaling</summary>
+
+Scheme:
+![Resilience & Autoscaling](readme-images/Section%208/Resilience,Autoscaling/Schema_1.jpg)
+
+
+</details>
