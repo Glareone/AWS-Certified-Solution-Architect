@@ -1049,3 +1049,76 @@ restart apache: service httpd restart
 ![HA_Architecture_Lab](readme-images/Section%208/HA_Architecture/Lab/TargetGroup_35.jpg)
 
 </details>
+
+<details>
+<summary>Section 8: Continue of Resilience and Autoscaling. Continues the Lab from previous dropdown</summary>
+
+Scheme:
+![Resilience & Autoscaling](readme-images/Section%208/Resilience,Autoscaling/Schema_1.jpg)
+
+![Resilience & Autoscaling](readme-images/Section%208/Resilience,Autoscaling/Crontab_2.jpg)
+
+To run crontab: "service crond restart".
+![Resilience & Autoscaling](readme-images/Section%208/Resilience,Autoscaling/Create_Image_from_EC2_instance_3.jpg)
+![Resilience & Autoscaling](readme-images/Section%208/Resilience,Autoscaling/Create_Image_from_EC2_instance_4.jpg)
+![Resilience & Autoscaling](readme-images/Section%208/Resilience,Autoscaling/Create_Image_from_EC2_instance_5.jpg)
+
+Adding crontab update schedule for READ EC2 instance:
+![Resilience & Autoscaling](readme-images/Section%208/Resilience,Autoscaling/Write_EC2_Instance_Crontab_6.jpg)
+
+Adding auto-scaling for READ EC2 instances starts from adding Launch Configuration for Read EC2 instance:
+![Resilience & Autoscaling](readme-images/Section%208/Resilience,Autoscaling/AutoScaling_7.jpg)
+![Resilience & Autoscaling](readme-images/Section%208/Resilience,Autoscaling/AutoScaling_8.jpg)
+![Resilience & Autoscaling](readme-images/Section%208/Resilience,Autoscaling/AutoScaling_9.jpg)
+bootstrap script: [bootstrap script](files/Section8-Resilience-Autoscaling-80.sh)
+
+And now we could start adding AutoScaling according our Launch Configuration:
+![Resilience & Autoscaling](readme-images/Section%208/Resilience,Autoscaling/AutoScaling_10.jpg)
+![Resilience & Autoscaling](readme-images/Section%208/Resilience,Autoscaling/AutoScaling_11.jpg)
+![Resilience & Autoscaling](readme-images/Section%208/Resilience,Autoscaling/AutoScaling_12.jpg)
+![Resilience & Autoscaling](readme-images/Section%208/Resilience,Autoscaling/AutoScaling_13.jpg)
+
+target group configuration (delete write EC2 node from target group):
+![Resilience & Autoscaling](readme-images/Section%208/Resilience,Autoscaling/TargetGroups_14.jpg)
+![Resilience & Autoscaling](readme-images/Section%208/Resilience,Autoscaling/TargetGroups_15.jpg)
+
+checking instances:
+![Resilience & Autoscaling](readme-images/Section%208/Resilience,Autoscaling/Instances_16.jpg)
+
+Additional tip about RDS failover and how to run it in another AZ:
+![Resilience & Autoscaling](readme-images/Section%208/Resilience,Autoscaling/RDS_Failover_reboot_and_run_in_another_AZ_17.jpg)
+
+</details>
+
+<details>
+<summary>Section 8: Cloud Formation Lab</summary>
+
+* CloudFormation - service which allows you to create a template of your entire AWS solution.
+* In several words - little service which allows you provision all what you need without requiring you
+to manipulate EC2 instances.
+
+* You could use CloudFormation to deploy super advanced stuff injecting your personal template in 
+pseudo-JSON format
+
+Additional information about CloudFormation advanced provisioning you could find: 
+[CloudFormation quickstart](https://aws.amazon.com/quickstart/?quickstart-all.sort-by=item.additionalFields.updateDate&quickstart-all.sort-order=desc)
+
+![CloudFormation](readme-images/Section%208/CloudFormation/Create_Stack_1.jpg)
+![CloudFormation](readme-images/Section%208/CloudFormation/Create_Stack_2.jpg)
+![CloudFormation](readme-images/Section%208/CloudFormation/Create_Stack_3.jpg)
+![CloudFormation](readme-images/Section%208/CloudFormation/Create_Stack_4.jpg)
+![CloudFormation](readme-images/Section%208/CloudFormation/Create_Stack_5.jpg)
+
+</details>
+
+<details>
+<summary>Section 8: Beanstalk</summary>
+
+* Beanstalk is for users who are not familiar with AWS and CloudFormation and would like to provision WordPress
+ clicking one or two buttons.
+![BeansTalk](readme-images/Section%208/Beanstalk/Beanstalk_5.jpg)
+![BeansTalk](readme-images/Section%208/Beanstalk/Initial_1.jpg)
+![BeansTalk](readme-images/Section%208/Beanstalk/Beanstalk_2.jpg)
+![BeansTalk](readme-images/Section%208/Beanstalk/Beanstalk_3.jpg)
+![BeansTalk](readme-images/Section%208/Beanstalk/Beanstalk_4.jpg)
+</details>
