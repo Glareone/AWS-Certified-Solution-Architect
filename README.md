@@ -1088,6 +1088,32 @@ checking instances:
 Additional tip about RDS failover and how to run it in another AZ:
 ![Resilience & Autoscaling](readme-images/Section%208/Resilience,Autoscaling/RDS_Failover_reboot_and_run_in_another_AZ_17.jpg)
 
+</details>
+
+<details>
+<summary>Section 8: Cloud Formation Lab</summary>
+
+* CloudFormation - service which allows you to create a template of your entire AWS solution.
+* In several words - little service which allows you provision all what you need without requiring you
+to manipulate EC2 instances.
+
+* You could use CloudFormation to deploy super advanced stuff injecting your personal template in 
+pseudo-JSON format
+
+Additional information about CloudFormation advanced provisioning you could find: 
+[CloudFormation quickstart](https://aws.amazon.com/quickstart/?quickstart-all.sort-by=item.additionalFields.updateDate&quickstart-all.sort-order=desc)
+
+![CloudFormation](readme-images/Section%208/CloudFormation/Create_Stack_1.jpg)
+![CloudFormation](readme-images/Section%208/CloudFormation/Create_Stack_2.jpg)
+![CloudFormation](readme-images/Section%208/CloudFormation/Create_Stack_3.jpg)
+![CloudFormation](readme-images/Section%208/CloudFormation/Create_Stack_4.jpg)
+![CloudFormation](readme-images/Section%208/CloudFormation/Create_Stack_5.jpg)
+
+</details>
+
+<details>
+<summary>Section 8: Beanstalk</summary>
+
 
 
 </details>
