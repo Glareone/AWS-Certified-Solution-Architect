@@ -1051,10 +1051,25 @@ restart apache: service httpd restart
 </details>
 
 <details>
-<summary>Section 8: Resilience and Autoscaling</summary>
+<summary>Section 8: Continue of Resilience and Autoscaling</summary>
 
 Scheme:
 ![Resilience & Autoscaling](readme-images/Section%208/Resilience,Autoscaling/Schema_1.jpg)
+
+![Resilience & Autoscaling](readme-images/Section%208/Resilience,Autoscaling/Crontab_2.jpg)
+
+To run crontab: "service crond restart".
+![Resilience & Autoscaling](readme-images/Section%208/Resilience,Autoscaling/Create_Image_from_EC2_instance_3.jpg)
+![Resilience & Autoscaling](readme-images/Section%208/Resilience,Autoscaling/Create_Image_from_EC2_instance_4.jpg)
+![Resilience & Autoscaling](readme-images/Section%208/Resilience,Autoscaling/Create_Image_from_EC2_instance_5.jpg)
+
+Adding crontab update schedule for READ EC2 instance:
+![Resilience & Autoscaling](readme-images/Section%208/Resilience,Autoscaling/Write_EC2_Instance_Crontab_6.jpg)
+
+Adding auto-scaling for READ EC2 instances:
+![Resilience & Autoscaling](readme-images/Section%208/Resilience,Autoscaling/AutoScaling_7.jpg)
+![Resilience & Autoscaling](readme-images/Section%208/Resilience,Autoscaling/AutoScaling_8.jpg)
+![Resilience & Autoscaling](readme-images/Section%208/Resilience,Autoscaling/AutoScaling_9.jpg)
 
 
 </details>
