@@ -1114,6 +1114,11 @@ Additional information about CloudFormation advanced provisioning you could find
 <details>
 <summary>Section 8: Beanstalk</summary>
 
-
-
+* Beanstalk is for users who are not familiar with AWS and CloudFormation and would like to provision WordPress
+ clicking one or two buttons.
+![BeansTalk](readme-images/Section%208/Beanstalk/Beanstalk_5.jpg)
+![BeansTalk](readme-images/Section%208/Beanstalk/Initial_1.jpg)
+![BeansTalk](readme-images/Section%208/Beanstalk/Beanstalk_2.jpg)
+![BeansTalk](readme-images/Section%208/Beanstalk/Beanstalk_3.jpg)
+![BeansTalk](readme-images/Section%208/Beanstalk/Beanstalk_4.jpg)
 </details>
