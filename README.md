@@ -1051,7 +1051,7 @@ restart apache: service httpd restart
 </details>
 
 <details>
-<summary>Section 8: Continue of Resilience and Autoscaling</summary>
+<summary>Section 8: Continue of Resilience and Autoscaling. Continues the Lab from previous dropdown</summary>
 
 Scheme:
 ![Resilience & Autoscaling](readme-images/Section%208/Resilience,Autoscaling/Schema_1.jpg)
@@ -1066,10 +1066,28 @@ To run crontab: "service crond restart".
 Adding crontab update schedule for READ EC2 instance:
 ![Resilience & Autoscaling](readme-images/Section%208/Resilience,Autoscaling/Write_EC2_Instance_Crontab_6.jpg)
 
-Adding auto-scaling for READ EC2 instances:
+Adding auto-scaling for READ EC2 instances starts from adding Launch Configuration for Read EC2 instance:
 ![Resilience & Autoscaling](readme-images/Section%208/Resilience,Autoscaling/AutoScaling_7.jpg)
 ![Resilience & Autoscaling](readme-images/Section%208/Resilience,Autoscaling/AutoScaling_8.jpg)
 ![Resilience & Autoscaling](readme-images/Section%208/Resilience,Autoscaling/AutoScaling_9.jpg)
+bootstrap script: [bootstrap script](files/Section8-Resilience-Autoscaling-80.sh)
+
+And now we could start adding AutoScaling according our Launch Configuration:
+![Resilience & Autoscaling](readme-images/Section%208/Resilience,Autoscaling/AutoScaling_10.jpg)
+![Resilience & Autoscaling](readme-images/Section%208/Resilience,Autoscaling/AutoScaling_11.jpg)
+![Resilience & Autoscaling](readme-images/Section%208/Resilience,Autoscaling/AutoScaling_12.jpg)
+![Resilience & Autoscaling](readme-images/Section%208/Resilience,Autoscaling/AutoScaling_13.jpg)
+
+target group configuration (delete write EC2 node from target group):
+![Resilience & Autoscaling](readme-images/Section%208/Resilience,Autoscaling/TargetGroups_14.jpg)
+![Resilience & Autoscaling](readme-images/Section%208/Resilience,Autoscaling/TargetGroups_15.jpg)
+
+checking instances:
+![Resilience & Autoscaling](readme-images/Section%208/Resilience,Autoscaling/Instances_16.jpg)
+
+Additional tip about RDS failover and how to run it in another AZ:
+![Resilience & Autoscaling](readme-images/Section%208/Resilience,Autoscaling/RDS_Failover_reboot_and_run_in_another_AZ_17.jpg)
+
 
 
 </details>
