@@ -1058,34 +1058,34 @@ Scheme:
 
 ![Resilience & Autoscaling](readme-images/Section%208/Resilience,Autoscaling/Crontab_2.jpg)
 
-To run crontab: "service crond restart".
+#####To run crontab: "service crond restart".
 ![Resilience & Autoscaling](readme-images/Section%208/Resilience,Autoscaling/Create_Image_from_EC2_instance_3.jpg)
 ![Resilience & Autoscaling](readme-images/Section%208/Resilience,Autoscaling/Create_Image_from_EC2_instance_4.jpg)
 ![Resilience & Autoscaling](readme-images/Section%208/Resilience,Autoscaling/Create_Image_from_EC2_instance_5.jpg)
 
-Adding crontab update schedule for READ EC2 instance:
+#####Adding crontab update schedule for READ EC2 instance:
 ![Resilience & Autoscaling](readme-images/Section%208/Resilience,Autoscaling/Write_EC2_Instance_Crontab_6.jpg)
 
-Adding auto-scaling for READ EC2 instances starts from adding Launch Configuration for Read EC2 instance:
+#####Adding auto-scaling for READ EC2 instances starts from adding Launch Configuration for Read EC2 instance:
 ![Resilience & Autoscaling](readme-images/Section%208/Resilience,Autoscaling/AutoScaling_7.jpg)
 ![Resilience & Autoscaling](readme-images/Section%208/Resilience,Autoscaling/AutoScaling_8.jpg)
 ![Resilience & Autoscaling](readme-images/Section%208/Resilience,Autoscaling/AutoScaling_9.jpg)
 bootstrap script: [bootstrap script](files/Section8-Resilience-Autoscaling-80.sh)
 
-And now we could start adding AutoScaling according our Launch Configuration:
+#####And now we could start adding AutoScaling according our Launch Configuration:
 ![Resilience & Autoscaling](readme-images/Section%208/Resilience,Autoscaling/AutoScaling_10.jpg)
 ![Resilience & Autoscaling](readme-images/Section%208/Resilience,Autoscaling/AutoScaling_11.jpg)
 ![Resilience & Autoscaling](readme-images/Section%208/Resilience,Autoscaling/AutoScaling_12.jpg)
 ![Resilience & Autoscaling](readme-images/Section%208/Resilience,Autoscaling/AutoScaling_13.jpg)
 
-target group configuration (delete write EC2 node from target group):
+#####Target group configuration (delete write EC2 node from target group):
 ![Resilience & Autoscaling](readme-images/Section%208/Resilience,Autoscaling/TargetGroups_14.jpg)
 ![Resilience & Autoscaling](readme-images/Section%208/Resilience,Autoscaling/TargetGroups_15.jpg)
 
-checking instances:
+#####Checking instances:
 ![Resilience & Autoscaling](readme-images/Section%208/Resilience,Autoscaling/Instances_16.jpg)
 
-Additional tip about RDS failover and how to run it in another AZ:
+#####Additional tip about RDS failover and how to run it in another AZ:
 ![Resilience & Autoscaling](readme-images/Section%208/Resilience,Autoscaling/RDS_Failover_reboot_and_run_in_another_AZ_17.jpg)
 
 </details>
@@ -1122,3 +1122,14 @@ Additional information about CloudFormation advanced provisioning you could find
 ![BeansTalk](readme-images/Section%208/Beanstalk/Beanstalk_3.jpg)
 ![BeansTalk](readme-images/Section%208/Beanstalk/Beanstalk_4.jpg)
 </details>
+
+Section 9: Applications. SQS, SNS, SWF, Kinesis, Elastic Transcoder, Cognito - Web identify Federation   
+===
+
+<details>
+<summary>Section 9: SQS</summary>
+
+
+
+</details>
+
