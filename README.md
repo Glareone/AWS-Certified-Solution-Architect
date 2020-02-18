@@ -1129,7 +1129,140 @@ Section 9: Applications. SQS, SNS, SWF, Kinesis, Elastic Transcoder, Cognito - W
 <details>
 <summary>Section 9: SQS</summary>
 
+![SQS](readme-images/Section%209/SQS/Initial_1.jpg)
 
+#####Examples:
+![SQS](readme-images/Section%209/SQS/2.jpg)
+![SQS](readme-images/Section%209/SQS/example_3.jpg)
+
+#####Info:
+![SQS](readme-images/Section%209/SQS/SQS_4.jpg)
+![SQS](readme-images/Section%209/SQS/SQS_5.jpg)
+![SQS](readme-images/Section%209/SQS/Queue_Types_6.jpg)
+![SQS](readme-images/Section%209/SQS/standard_7.jpg)
+![SQS](readme-images/Section%209/SQS/standard_8.jpg)
+![SQS](readme-images/Section%209/SQS/FIFO_9.jpg)
+![SQS](readme-images/Section%209/SQS/FIFO_10.jpg)
+
+#####Exam tips:
+![SQS](readme-images/Section%209/SQS/Tips-11.jpg)
+![SQS](readme-images/Section%209/SQS/Tips-12.jpg)
+![SQS](readme-images/Section%209/SQS/Tips-13.jpg)
 
 </details>
 
+<details>
+<summary>Section 9: SNS (Simple Notification Service)</summary>
+
+![SNS](readme-images/Section%209/SNS/Initial_1.jpg)
+![SNS](readme-images/Section%209/SNS/Initial_2.jpg)
+![SNS](readme-images/Section%209/SNS/SQS_Integration_3.jpg)
+![SNS](readme-images/Section%209/SNS/SQS_Integration_4.jpg)
+![SNS](readme-images/Section%209/SNS/SNS_Availability_5.jpg)
+![SNS](readme-images/Section%209/SNS/SNS_6.jpg)
+![SNS](readme-images/Section%209/SNS/SNS_VS_SQS_7.jpg)
+
+</details>
+
+<details>
+<summary>Section 9: SQS vs SNS</summary>
+
+#####Entity Type
+* SQS : Queue (Similar to JMS)
+* SNS : Topic (Pub/Sub system)
+
+#####Message consumption
+* SQS : Pull Mechanism - Consumers poll and pull messages from SQS
+* SNS : Push Mechanism - SNS Pushes messages to consumers
+
+#####Use Case
+* SQS : Decoupling 2 applications and allowing parallel asynchronous processing
+* SNS : Fanout - Processing the same message in multiple ways
+
+#####Persistence
+* SQS : Messages are persisted for some (configurable) duration if no consumer is available
+* SNS : No persistence. Whichever consumer is present at the time of message arrival gets the message and the message is
+ deleted. If no consumers are available then the message is lost.
+
+#####Consumer Type
+* SQS : All the consumers are supposed to be identical and hence process the messages in exact same way
+* SNS : The consumers might process the messages in different ways
+
+#####Sample applications
+* SQS : Jobs framework: The Jobs are submitted to SQS and the consumers at the other end can process the jobs
+ asynchronously. If the job frequency increases, the number of consumers can simply be increased to achieve
+ better throughput.
+* SNS : Image processing. If someone uploads an image to S3 then watermark that image, create a thumbnail and also send
+ a Thank You email. In that case S3 can publish notifications to a SNS Topic with 3 consumers listening to it. 1st one
+ watermarks the image, 2nd one creates a thumbnail and the 3rd one sends a Thank You email. All of them receive the
+ same message (image URL) and do their processing in parallel.
+
+#####Comparision
+* SNS is a distributed publish-subscribe system. Messages are pushed to subscribers as and when they are sent by
+ publishers to SNS.
+
+* SQS is distributed queuing system. Messages are NOT pushed to receivers. Receivers have to poll or pull messages
+ from SQS. Messages can't be received by multiple receivers at the same time. Any one receiver can receive a message,
+ process and delete it. Other receivers do not receive the same message later. Polling inherently introduces some
+ latency in message delivery in SQS unlike SNS where messages are immediately pushed to subscribers. SNS supports
+ several end points such as email, sms, http end point and SQS. If you want unknown number and type of subscribers
+ to receive messages, you need SNS.
+
+* You don't have to couple SNS and SQS always. You can have SNS send messages to email, sms or http end point apart
+ from SQS. There are advantages to coupling SNS with SQS. You may not want an external service to make connections
+ to your hosts (firewall may block all incoming connections to your host from outside). Your end point may just die
+ because of heavy volume of messages. Email and SMS maybe not your choice of processing messages quickly. By coupling
+ SNS with SQS, you can receive messages at your pace. It allows clients to be offline, tolerant to network and host
+ failures. You also achieve guaranteed delivery. If you configure SNS to send messages to an http end point or email
+ or SMS, several failures to send message may result in message being dropped.
+
+</details>
+
+<details>
+<summary>Section 9: SWF (Simple WorkFlow Service) + SWF vs SQS</summary>
+
+![SWF](readme-images/Section%209/SWF/initial_1.jpg)
+![SWF](readme-images/Section%209/SWF/initial_2.jpg)
+![SWF](readme-images/Section%209/SWF/SQS_VS_SWF.jpg)
+![SWF](readme-images/Section%209/SWF/SWF_Actors(Elements).jpg)
+
+</details>
+
+<details>
+<summary>Section 9: Elastic Transcoder</summary>
+
+![Transcoder](readme-images/Section%209/Transcoder/Init_1.jpg)
+![Transcoder](readme-images/Section%209/Transcoder/example_2.jpg)
+![Transcoder](readme-images/Section%209/Transcoder/exam_tips_3.jpg)
+
+</details>
+
+<details>
+<summary>Section 9: API Gateway</summary>
+
+![API_Gateway](readme-images/Section%209/API%20Gateway/Init_1.jpg)
+![API_Gateway](readme-images/Section%209/API%20Gateway/description_2.jpg)
+![API_Gateway](readme-images/Section%209/API%20Gateway/usage_3.jpg)
+![API_Gateway](readme-images/Section%209/API%20Gateway/api_capability_4.jpg)
+![API_Gateway](readme-images/Section%209/API%20Gateway/deploy_5.jpg)
+![API_Gateway](readme-images/Section%209/API%20Gateway/caching_6.jpg)
+![API_Gateway](readme-images/Section%209/API%20Gateway/same_origin_policy_7.jpg)
+![API_Gateway](readme-images/Section%209/API%20Gateway/cors_8.jpg)
+![API_Gateway](readme-images/Section%209/API%20Gateway/cors_action_9.jpg)
+![API_Gateway](readme-images/Section%209/API%20Gateway/tips_10.jpg)
+
+</details>
+
+<details>
+<summary>Section 9: Kinesis 101: Kinesis Streams, Kinesis Firehose, Kinesis Analytics</summary>
+
+![Kinesis](readme-images/Section%209/Kinesis/streaming_data_1.jpg)
+![Kinesis](readme-images/Section%209/Kinesis/kinesis_2.jpg)
+![Kinesis](readme-images/Section%209/Kinesis/kinesis_types_3.jpg)
+![Kinesis](readme-images/Section%209/Kinesis/kinesis_work_scheme_4.jpg)
+![Kinesis](readme-images/Section%209/Kinesis/Kinesis_tips_5.jpg)
+![Kinesis](readme-images/Section%209/Kinesis/Kinesis_Firehose_6.jpg)
+![Kinesis](readme-images/Section%209/Kinesis/Kinesis_Analytics_7.jpg)
+![Kinesis](readme-images/Section%209/Kinesis/Tips_8.jpg)
+
+</details>
