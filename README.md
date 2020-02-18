@@ -1152,8 +1152,60 @@ Section 9: Applications. SQS, SNS, SWF, Kinesis, Elastic Transcoder, Cognito - W
 </details>
 
 <details>
+<summary>Section 9: SQS vs SNS</summary>
+
+#####Entity Type
+* SQS : Queue (Similar to JMS)
+* SNS : Topic (Pub/Sub system)
+
+#####Message consumption
+* SQS : Pull Mechanism - Consumers poll and pull messages from SQS
+* SNS : Push Mechanism - SNS Pushes messages to consumers
+
+#####Use Case
+* SQS : Decoupling 2 applications and allowing parallel asynchronous processing
+* SNS : Fanout - Processing the same message in multiple ways
+
+#####Persistence
+* SQS : Messages are persisted for some (configurable) duration if no consumer is available
+* SNS : No persistence. Whichever consumer is present at the time of message arrival gets the message and the message is
+ deleted. If no consumers are available then the message is lost.
+
+#####Consumer Type
+* SQS : All the consumers are supposed to be identical and hence process the messages in exact same way
+* SNS : The consumers might process the messages in different ways
+
+#####Sample applications
+* SQS : Jobs framework: The Jobs are submitted to SQS and the consumers at the other end can process the jobs
+ asynchronously. If the job frequency increases, the number of consumers can simply be increased to achieve
+ better throughput.
+* SNS : Image processing. If someone uploads an image to S3 then watermark that image, create a thumbnail and also send
+ a Thank You email. In that case S3 can publish notifications to a SNS Topic with 3 consumers listening to it. 1st one
+ watermarks the image, 2nd one creates a thumbnail and the 3rd one sends a Thank You email. All of them receive the
+ same message (image URL) and do their processing in parallel.
+
+#####Comparision
+* SNS is a distributed publish-subscribe system. Messages are pushed to subscribers as and when they are sent by
+ publishers to SNS.
+
+* SQS is distributed queuing system. Messages are NOT pushed to receivers. Receivers have to poll or pull messages
+ from SQS. Messages can't be received by multiple receivers at the same time. Any one receiver can receive a message,
+ process and delete it. Other receivers do not receive the same message later. Polling inherently introduces some
+ latency in message delivery in SQS unlike SNS where messages are immediately pushed to subscribers. SNS supports
+ several end points such as email, sms, http end point and SQS. If you want unknown number and type of subscribers
+ to receive messages, you need SNS.
+
+* You don't have to couple SNS and SQS always. You can have SNS send messages to email, sms or http end point apart
+ from SQS. There are advantages to coupling SNS with SQS. You may not want an external service to make connections
+ to your hosts (firewall may block all incoming connections to your host from outside). Your end point may just die
+ because of heavy volume of messages. Email and SMS maybe not your choice of processing messages quickly. By coupling
+ SNS with SQS, you can receive messages at your pace. It allows clients to be offline, tolerant to network and host
+ failures. You also achieve guaranteed delivery. If you configure SNS to send messages to an http end point or email
+ or SMS, several failures to send message may result in message being dropped.
+
+</details>
+
+<details>
 <summary>Section 9: SWF</summary>
-
-
 
 </details>
