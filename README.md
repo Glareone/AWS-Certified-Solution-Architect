@@ -1252,3 +1252,17 @@ Section 9: Applications. SQS, SNS, SWF, Kinesis, Elastic Transcoder, Cognito - W
 ![API_Gateway](readme-images/Section%209/API%20Gateway/tips_10.jpg)
 
 </details>
+
+<details>
+<summary>Section 9: Kinesis 101: Kinesis Streams, Kinesis Firehose, Kinesis Analytics</summary>
+
+![Kinesis](readme-images/Section%209/Kinesis/streaming_data_1.jpg)
+![Kinesis](readme-images/Section%209/Kinesis/kinesis_2.jpg)
+![Kinesis](readme-images/Section%209/Kinesis/kinesis_types_3.jpg)
+![Kinesis](readme-images/Section%209/Kinesis/kinesis_work_scheme_4.jpg)
+![Kinesis](readme-images/Section%209/Kinesis/Kinesis_tips_5.jpg)
+![Kinesis](readme-images/Section%209/Kinesis/Kinesis_Firehose_6.jpg)
+![Kinesis](readme-images/Section%209/Kinesis/Kinesis_Analytics_7.jpg)
+![Kinesis](readme-images/Section%209/Kinesis/Tips_8.jpg)
+
+</details>
