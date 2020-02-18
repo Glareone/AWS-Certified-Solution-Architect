@@ -1227,3 +1227,12 @@ Section 9: Applications. SQS, SNS, SWF, Kinesis, Elastic Transcoder, Cognito - W
 ![SWF](readme-images/Section%209/SWF/SWF_Actors(Elements).jpg)
 
 </details>
+
+<details>
+<summary>Section 9: Elastic Transcoder</summary>
+
+![Transcoder](readme-images/Section%209/Transcoder/Init_1.jpg)
+![Transcoder](readme-images/Section%209/Transcoder/example_2.jpg)
+![Transcoder](readme-images/Section%209/Transcoder/exam_tips_3.jpg)
+
+</details>
