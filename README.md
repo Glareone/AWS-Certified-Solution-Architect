@@ -1236,3 +1236,19 @@ Section 9: Applications. SQS, SNS, SWF, Kinesis, Elastic Transcoder, Cognito - W
 ![Transcoder](readme-images/Section%209/Transcoder/exam_tips_3.jpg)
 
 </details>
+
+<details>
+<summary>Section 9: API Gateway</summary>
+
+![API_Gateway](readme-images/Section%209/API%20Gateway/Init_1.jpg)
+![API_Gateway](readme-images/Section%209/API%20Gateway/description_2.jpg)
+![API_Gateway](readme-images/Section%209/API%20Gateway/usage_3.jpg)
+![API_Gateway](readme-images/Section%209/API%20Gateway/api_capability_4.jpg)
+![API_Gateway](readme-images/Section%209/API%20Gateway/deploy_5.jpg)
+![API_Gateway](readme-images/Section%209/API%20Gateway/caching_6.jpg)
+![API_Gateway](readme-images/Section%209/API%20Gateway/same_origin_policy_7.jpg)
+![API_Gateway](readme-images/Section%209/API%20Gateway/cors_8.jpg)
+![API_Gateway](readme-images/Section%209/API%20Gateway/cors_action_9.jpg)
+![API_Gateway](readme-images/Section%209/API%20Gateway/tips_10.jpg)
+
+</details>
