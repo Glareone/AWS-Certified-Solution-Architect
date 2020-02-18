@@ -1129,7 +1129,31 @@ Section 9: Applications. SQS, SNS, SWF, Kinesis, Elastic Transcoder, Cognito - W
 <details>
 <summary>Section 9: SQS</summary>
 
+![BeansTalk](readme-images/Section%209/SQS/Initial_1.jpg)
 
+#####Examples:
+![BeansTalk](readme-images/Section%209/SQS/2.jpg)
+![BeansTalk](readme-images/Section%209/SQS/example_3.jpg)
+
+#####Info:
+![BeansTalk](readme-images/Section%209/SQS/SQS_4.jpg)
+![BeansTalk](readme-images/Section%209/SQS/SQS_5.jpg)
+![BeansTalk](readme-images/Section%209/SQS/Queue_Types_6.jpg)
+![BeansTalk](readme-images/Section%209/SQS/standard_7.jpg)
+![BeansTalk](readme-images/Section%209/SQS/standard_8.jpg)
+![BeansTalk](readme-images/Section%209/SQS/FIFO_9.jpg)
+![BeansTalk](readme-images/Section%209/SQS/FIFO_10.jpg)
+
+#####Exam tips:
+![BeansTalk](readme-images/Section%209/SQS/Tips-11.jpg)
+![BeansTalk](readme-images/Section%209/SQS/Tips-12.jpg)
+![BeansTalk](readme-images/Section%209/SQS/Tips-13.jpg)
 
 </details>
 
+<details>
+<summary>Section 9: SWF</summary>
+
+
+
+</details>
