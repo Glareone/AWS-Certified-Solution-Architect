@@ -1152,6 +1152,19 @@ Section 9: Applications. SQS, SNS, SWF, Kinesis, Elastic Transcoder, Cognito - W
 </details>
 
 <details>
+<summary>Section 9: SNS (Simple Notification Service)</summary>
+
+![SNS](readme-images/Section%209/SNS/Initial_1.jpg)
+![SNS](readme-images/Section%209/SNS/Initial_2.jpg)
+![SNS](readme-images/Section%209/SNS/SQS_Integration_3.jpg)
+![SNS](readme-images/Section%209/SNS/SQS_Integration_4.jpg)
+![SNS](readme-images/Section%209/SNS/SNS_Availability_5.jpg)
+![SNS](readme-images/Section%209/SNS/SNS_6.jpg)
+![SNS](readme-images/Section%209/SNS/SNS_VS_SQS_7.jpg)
+
+</details>
+
+<details>
 <summary>Section 9: SQS vs SNS</summary>
 
 #####Entity Type
