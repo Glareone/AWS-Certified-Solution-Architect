@@ -1399,6 +1399,39 @@ zipped files of this course: [files](files/ServerlessWebsiteResources.zip)
 </details>
 
 <details>
+<summary>Section 10: Serverless, Alexa Lab-2</summary>
+
+![Lambda_Lab2](readme-images/Section%2010/Serverless%20Alexa_Lab-2/Brief_1.jpg)
+![Lambda_Lab2](readme-images/Section%2010/Serverless%20Alexa_Lab-2/Brief_2.jpg)
+
+1) You have to create S3 bucket and make it public:
+![Lambda_Lab2](readme-images/Section%2010/Serverless%20Alexa_Lab-2/S3_config_3.jpg)
+
+2) We will generate audio file using Voice Poly service:
+![Lambda_Lab2](readme-images/Section%2010/Serverless%20Alexa_Lab-2/Amazon_Poly_4.jpg)
+![Lambda_Lab2](readme-images/Section%2010/Serverless%20Alexa_Lab-2/Amazon_Poly_5.jpg)
+
+3) Check S3 is file exists
+4) Create lambda:
+Pay attention, you have to create lambda in a region where Alexa's trigger is enabled (only in several regions)
+![Lambda_Lab2](readme-images/Section%2010/Serverless%20Alexa_Lab-2/lambda_6.jpg)
+![Lambda_Lab2](readme-images/Section%2010/Serverless%20Alexa_Lab-2/lambda_7.jpg)
+![Lambda_Lab2](readme-images/Section%2010/Serverless%20Alexa_Lab-2/lambda_8.jpg)
+![Lambda_Lab2](readme-images/Section%2010/Serverless%20Alexa_Lab-2/lambda_9.jpg)
+![Lambda_Lab2](readme-images/Section%2010/Serverless%20Alexa_Lab-2/lambda_configuration_10.jpg)
+![Lambda_Lab2](readme-images/Section%2010/Serverless%20Alexa_Lab-2/lambda_configuration_11.jpg)
+
+5) Next you have to visit Amazon Developers and play with simulator:
+![Lambda_Lab2](readme-images/Section%2010/Serverless%20Alexa_Lab-2/Amazon_Developers_12.jpg)
+![Lambda_Lab2](readme-images/Section%2010/Serverless%20Alexa_Lab-2/Amazon_Developers_13.jpg)
+
+6) update data in the file and add audio link from S3 bucket:
+![Lambda_Lab2](readme-images/Section%2010/Serverless%20Alexa_Lab-2/Add_audio_instead_of_text_14.jpg)
+
+That's it.
+</details>
+
+<details>
 <summary>Section 10: Q&A</summary>
 
 * Question 1:
