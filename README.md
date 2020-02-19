@@ -1359,3 +1359,41 @@ zipped files of this course: [files](files/ServerlessWebsiteResources.zip)
 ![Lambda_Lab1](readme-images/Section%2010/Lambda/lambda_with_http_6.jpg)
 
 </details>
+
+<details>
+<summary>Section 10: Q&A</summary>
+
+* Question 1:
+  You have created a simple serverless website using S3, Lambda, API Gateway and DynamoDB. 
+   Your website will process the contact details of your customers, predict an expected delivery 
+   date of their order and store their order in DynamoDB. You test the website before deploying it 
+   into production and you notice that although the page executes, and the lambda function is triggered, 
+   it is unable to write to DynamoDB. What could be the cause of this issue?
+  
+* A: Your lambda function does not have sufficient Identity Access Management (IAM) permissions to write to DynamoDB.
+
+* Question 3: 
+  What AWS service can be used to help resolve an issue with a lambda function?
+  
+* A: AWS X-Ray helps developers analyze and debug production, distributed applications, such as those built using a
+   microservices & serverless architectures.
+ 
+* Question 4:
+  You have created a serverless application to add metadata to images that are uploaded to a specific S3 bucket.
+   To do this, your lambda function is configured to trigger whenever a new image is created in the bucket.
+   What will happen when multiple users upload multiple different images at the same time?
+  
+* A: Multiple instances of the Lambda function will be triggered, one for each image.
+   Each time a Lambda function is triggered, an isolated instance of that function is invoked. 
+   Multiple triggers result in multiple concurrent invocations, one for each time it is triggered.
+  
+* Question 5:
+  As a DevOps engineer you are told to prepare complete solution to run a piece of code that required multi-threaded
+   processing. The code has been running on an old custom-built server based around a 4 core Intel Xeon processor. 
+   Which of these best describe the AWS compute services that could be used?
+
+* A: EC2, ECS, and Lambda. The exact ratio of cores to memory has varied over time for Lambda instances, 
+    however Lambda like EC2 and ECS supports hyper-threading on one or more virtual CPUs 
+    (if your code supports hyper-threading). 
+
+</details>
