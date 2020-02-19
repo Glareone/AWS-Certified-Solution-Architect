@@ -1266,3 +1266,25 @@ Section 9: Applications. SQS, SNS, SWF, Kinesis, Elastic Transcoder, Cognito - W
 ![Kinesis](readme-images/Section%209/Kinesis/Tips_8.jpg)
 
 </details>
+
+<details>
+<summary>Section 9: Web Identity Federation. Cognito</summary>
+
+![Cognito](readme-images/Section%209/Web%20Identity%20Federation%20And%20Cognito/WebIdentityFederation_1.jpg)
+![Cognito](readme-images/Section%209/Web%20Identity%20Federation%20And%20Cognito/Cognito_2.jpg)
+![Cognito](readme-images/Section%209/Web%20Identity%20Federation%20And%20Cognito/Cognito_scheme_3.jpg)
+![Cognito](readme-images/Section%209/Web%20Identity%20Federation%20And%20Cognito/Cognito_4.jpg)
+#####Users pools and Identity pools:
+![Cognito](readme-images/Section%209/Web%20Identity%20Federation%20And%20Cognito/User_pools_5.jpg)
+![Cognito](readme-images/Section%209/Web%20Identity%20Federation%20And%20Cognito/Identity_pools_6.jpg)
+
+#####Interactions and Synchronisation:
+![Cognito](readme-images/Section%209/Web%20Identity%20Federation%20And%20Cognito/scheme_7.jpg)
+![Cognito](readme-images/Section%209/Web%20Identity%20Federation%20And%20Cognito/cognito_8.jpg)
+![Cognito](readme-images/Section%209/Web%20Identity%20Federation%20And%20Cognito/cognito_9.jpg)
+
+#####Exam tips:
+![Cognito](readme-images/Section%209/Web%20Identity%20Federation%20And%20Cognito/exam_tips_10.jpg)
+![Cognito](readme-images/Section%209/Web%20Identity%20Federation%20And%20Cognito/exam_tips_11.jpg)
+
+</details>
