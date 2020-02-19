@@ -1183,6 +1183,9 @@ Section 9: Applications. SQS, SNS, SWF, Kinesis, Elastic Transcoder, Cognito - W
 * SQS : Messages are persisted for some (configurable) duration if no consumer is available
 * SNS : No persistence. Whichever consumer is present at the time of message arrival gets the message and the message is
  deleted. If no consumers are available then the message is lost.
+ 
+* SNS is a notification service for sending text based communication of different types to different destinations. 
+* SQS is a queue system for asynchronously manages tasks (called messages).
 
 #####Consumer Type
 * SQS : All the consumers are supposed to be identical and hence process the messages in exact same way
@@ -1226,6 +1229,12 @@ Section 9: Applications. SQS, SNS, SWF, Kinesis, Elastic Transcoder, Cognito - W
 ![SWF](readme-images/Section%209/SWF/SQS_VS_SWF.jpg)
 ![SWF](readme-images/Section%209/SWF/SWF_Actors(Elements).jpg)
 
+* While there are a limited range of SDKs available for SWF, AWS provides an HTTP based API which allows you to 
+interact using any language as long as you phrase the interactions in HTTP requests.
+
+* One time only completion is a key feature of SWF. At one time this was a key distinction from SQS, however 
+with SQS FiFo queues, this is no longer a distinguishing feature.
+
 </details>
 
 <details>
@@ -1264,5 +1273,50 @@ Section 9: Applications. SQS, SNS, SWF, Kinesis, Elastic Transcoder, Cognito - W
 ![Kinesis](readme-images/Section%209/Kinesis/Kinesis_Firehose_6.jpg)
 ![Kinesis](readme-images/Section%209/Kinesis/Kinesis_Analytics_7.jpg)
 ![Kinesis](readme-images/Section%209/Kinesis/Tips_8.jpg)
+
+</details>
+
+<details>
+<summary>Section 9: Web Identity Federation. Cognito</summary>
+
+![Cognito](readme-images/Section%209/Web%20Identity%20Federation%20And%20Cognito/WebIdentityFederation_1.jpg)
+![Cognito](readme-images/Section%209/Web%20Identity%20Federation%20And%20Cognito/Cognito_2.jpg)
+![Cognito](readme-images/Section%209/Web%20Identity%20Federation%20And%20Cognito/Cognito_scheme_3.jpg)
+![Cognito](readme-images/Section%209/Web%20Identity%20Federation%20And%20Cognito/Cognito_4.jpg)
+#####Users pools and Identity pools:
+![Cognito](readme-images/Section%209/Web%20Identity%20Federation%20And%20Cognito/User_pools_5.jpg)
+![Cognito](readme-images/Section%209/Web%20Identity%20Federation%20And%20Cognito/Identity_pools_6.jpg)
+
+#####Interactions and Synchronisation:
+![Cognito](readme-images/Section%209/Web%20Identity%20Federation%20And%20Cognito/scheme_7.jpg)
+![Cognito](readme-images/Section%209/Web%20Identity%20Federation%20And%20Cognito/cognito_8.jpg)
+![Cognito](readme-images/Section%209/Web%20Identity%20Federation%20And%20Cognito/cognito_9.jpg)
+
+#####Exam tips:
+![Cognito](readme-images/Section%209/Web%20Identity%20Federation%20And%20Cognito/exam_tips_10.jpg)
+![Cognito](readme-images/Section%209/Web%20Identity%20Federation%20And%20Cognito/exam_tips_11.jpg)
+
+</details>
+
+<details>
+<summary>Section 9: Exam tips</summary>
+
+![S9_ExamTips](readme-images/Section%209/Exam%20Tips/SQS_1.jpg)
+![S9_ExamTips](readme-images/Section%209/Exam%20Tips/SQS_2.jpg)
+![S9_ExamTips](readme-images/Section%209/Exam%20Tips/SWF_SQS_3.jpg)
+![S9_ExamTips](readme-images/Section%209/Exam%20Tips/SNS_4.jpg)
+![S9_ExamTips](readme-images/Section%209/Exam%20Tips/SNS_SQS_5.jpg)
+
+* In IT the term 'message' can be used in the common sense, or to describe a piece of data of Task in an asynchronous
+ queueing system such as MQseries, RabbitMQ or SQS.
+ 
+* In SWF, what does a "domain" refer to? - A collection of related workflows.
+ 
+* What does Amazon SES stand for? - Simple Email Service.
+
+![S9_ExamTips](readme-images/Section%209/Exam%20Tips/API_Gateway_6.jpg)
+![S9_ExamTips](readme-images/Section%209/Exam%20Tips/Kinesis_7.jpg)
+![S9_ExamTips](readme-images/Section%209/Exam%20Tips/Cognito_8.jpg)
+![S9_ExamTips](readme-images/Section%209/Exam%20Tips/Cognito_9.jpg)
 
 </details>
