@@ -1320,3 +1320,33 @@ with SQS FiFo queues, this is no longer a distinguishing feature.
 ![S9_ExamTips](readme-images/Section%209/Exam%20Tips/Cognito_9.jpg)
 
 </details>
+
+<details>
+<summary>Section 10: Lambda, lecture and docs</summary>
+
+#####Info:
+![Lambda](readme-images/Section%2010/Lambda/Brief_1.jpg)
+![Lambda](readme-images/Section%2010/Lambda/lambda_2.jpg)
+![Lambda](readme-images/Section%2010/Lambda/lambda_3.jpg)
+![Lambda](readme-images/Section%2010/Lambda/lambda_4.jpg)
+
+
+
+#####Triggers:
+![Lambda](readme-images/Section%2010/Lambda/lambda_with_triggers_5.jpg)
+* Services which could trigger Lambda:
+[link](https://docs.aws.amazon.com/lambda/latest/dg/lambda-services.html#intro-core-components-event-sources)
+* Comparition with EC2:
+[link](https://aws.amazon.com/lambda/faqs/)
+
+![Lambda](readme-images/Section%2010/Lambda/lambda_with_http_6.jpg)
+![Lambda](readme-images/Section%2010/Lambda/lambda_vs_traditional_architecture_7.jpg)
+![Lambda](readme-images/Section%2010/Lambda/lambda_languages_8.jpg)
+![Lambda](readme-images/Section%2010/Lambda/lambda_costs_9.jpg)
+![Lambda](readme-images/Section%2010/Lambda/lambda_10.jpg)
+
+#####Exam tips:
+![Lambda](readme-images/Section%2010/Lambda/lambda_tips_11.jpg)
+![Lambda](readme-images/Section%2010/Lambda/lambda_tips_12.jpg)
+
+</details>
