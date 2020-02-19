@@ -1229,6 +1229,12 @@ Section 9: Applications. SQS, SNS, SWF, Kinesis, Elastic Transcoder, Cognito - W
 ![SWF](readme-images/Section%209/SWF/SQS_VS_SWF.jpg)
 ![SWF](readme-images/Section%209/SWF/SWF_Actors(Elements).jpg)
 
+* While there are a limited range of SDKs available for SWF, AWS provides an HTTP based API which allows you to 
+interact using any language as long as you phrase the interactions in HTTP requests.
+
+* One time only completion is a key feature of SWF. At one time this was a key distinction from SQS, however 
+with SQS FiFo queues, this is no longer a distinguishing feature.
+
 </details>
 
 <details>
@@ -1300,6 +1306,14 @@ Section 9: Applications. SQS, SNS, SWF, Kinesis, Elastic Transcoder, Cognito - W
 ![S9_ExamTips](readme-images/Section%209/Exam%20Tips/SWF_SQS_3.jpg)
 ![S9_ExamTips](readme-images/Section%209/Exam%20Tips/SNS_4.jpg)
 ![S9_ExamTips](readme-images/Section%209/Exam%20Tips/SNS_SQS_5.jpg)
+
+* In IT the term 'message' can be used in the common sense, or to describe a piece of data of Task in an asynchronous
+ queueing system such as MQseries, RabbitMQ or SQS.
+ 
+* In SWF, what does a "domain" refer to? - A collection of related workflows.
+ 
+* What does Amazon SES stand for? - Simple Email Service.
+
 ![S9_ExamTips](readme-images/Section%209/Exam%20Tips/API_Gateway_6.jpg)
 ![S9_ExamTips](readme-images/Section%209/Exam%20Tips/Kinesis_7.jpg)
 ![S9_ExamTips](readme-images/Section%209/Exam%20Tips/Cognito_8.jpg)
