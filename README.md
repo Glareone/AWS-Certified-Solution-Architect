@@ -1320,3 +1320,118 @@ with SQS FiFo queues, this is no longer a distinguishing feature.
 ![S9_ExamTips](readme-images/Section%209/Exam%20Tips/Cognito_9.jpg)
 
 </details>
+
+<details>
+<summary>Section 10: Lambda, lecture and docs</summary>
+
+#####Info:
+![Lambda](readme-images/Section%2010/Lambda/Brief_1.jpg)
+![Lambda](readme-images/Section%2010/Lambda/lambda_2.jpg)
+![Lambda](readme-images/Section%2010/Lambda/lambda_3.jpg)
+![Lambda](readme-images/Section%2010/Lambda/lambda_4.jpg)
+
+
+
+#####Triggers:
+![Lambda](readme-images/Section%2010/Lambda/lambda_with_triggers_5.jpg)
+* Services which could trigger Lambda:
+[link](https://docs.aws.amazon.com/lambda/latest/dg/lambda-services.html#intro-core-components-event-sources)
+* Comparision with EC2:
+[link](https://aws.amazon.com/lambda/faqs/)
+
+![Lambda](readme-images/Section%2010/Lambda/lambda_with_http_6.jpg)
+![Lambda](readme-images/Section%2010/Lambda/lambda_vs_traditional_architecture_7.jpg)
+![Lambda](readme-images/Section%2010/Lambda/lambda_languages_8.jpg)
+![Lambda](readme-images/Section%2010/Lambda/lambda_costs_9.jpg)
+![Lambda](readme-images/Section%2010/Lambda/lambda_10.jpg)
+
+#####Exam tips:
+![Lambda](readme-images/Section%2010/Lambda/lambda_tips_11.jpg)
+![Lambda](readme-images/Section%2010/Lambda/lambda_tips_12.jpg)
+
+</details>
+
+<details>
+<summary>Section 10: Serverless webpage, Lab1</summary>
+
+zipped files of this course: [files](files/ServerlessWebsiteResources.zip)
+
+![Lambda_Lab1](readme-images/Section%2010/Serverless%20website_Lab-1/Scheme_1.jpg)
+![Lambda_Lab1](readme-images/Section%2010/Serverless%20website_Lab-1/lambda_2.jpg)
+![Lambda_Lab1](readme-images/Section%2010/Serverless%20website_Lab-1/lambda_3.jpg)
+![Lambda_Lab1](readme-images/Section%2010/Serverless%20website_Lab-1/lambda_4.jpg)
+![Lambda_Lab1](readme-images/Section%2010/Serverless%20website_Lab-1/lambda_5.jpg)
+![Lambda_Lab1](readme-images/Section%2010/Serverless%20website_Lab-1/lambda_6.jpg)
+![Lambda_Lab1](readme-images/Section%2010/Serverless%20website_Lab-1/lambda_7.jpg)
+![Lambda_Lab1](readme-images/Section%2010/Serverless%20website_Lab-1/lambda_8.jpg)
+
+#####Trigger configuration:
+![Lambda_Lab1](readme-images/Section%2010/Serverless%20website_Lab-1/configure_a_trigger_9.jpg)
+![Lambda_Lab1](readme-images/Section%2010/Serverless%20website_Lab-1/configure_a_trigger_10.jpg)
+![Lambda_Lab1](readme-images/Section%2010/Serverless%20website_Lab-1/configure_a_trigger_11.jpg)
+
+#####API Gateway:
+![Lambda_Lab1](readme-images/Section%2010/Serverless%20website_Lab-1/API_Gateway_Console_12.jpg)
+![Lambda_Lab1](readme-images/Section%2010/Serverless%20website_Lab-1/API_Gateway_Console_13.jpg)
+![Lambda_Lab1](readme-images/Section%2010/Serverless%20website_Lab-1/API_Gateway_Console_14.jpg)
+![Lambda_Lab1](readme-images/Section%2010/Serverless%20website_Lab-1/API_Gateway_Console_15.jpg)
+
+#####Deploy API:
+![Lambda_Lab1](readme-images/Section%2010/Serverless%20website_Lab-1/API_Gateway_Console_Deploy_API_16.jpg)
+![Lambda_Lab1](readme-images/Section%2010/Serverless%20website_Lab-1/API_Gateway_Console_17.jpg)
+
+#####Lambda test:
+![Lambda_Lab1](readme-images/Section%2010/Serverless%20website_Lab-1/API_Gateway_Console_18.jpg)
+
+#####S3 for static html page:
+![Lambda_Lab1](readme-images/Section%2010/Serverless%20website_Lab-1/S3_For_static_page_19.jpg)
+![Lambda_Lab1](readme-images/Section%2010/Serverless%20website_Lab-1/S3_For_static_page_20.jpg)
+
+#####S3 configuration to host website:
+![Lambda_Lab1](readme-images/Section%2010/Serverless%20website_Lab-1/S3_configuration_to_host_Website_21.jpg)
+![Lambda_Lab1](readme-images/Section%2010/Serverless%20website_Lab-1/S3_configuration_to_host_Website_22.jpg)
+![Lambda_Lab1](readme-images/Section%2010/Serverless%20website_Lab-1/S3_configuration_to_host_Website_23.jpg)
+![Lambda_Lab1](readme-images/Section%2010/Serverless%20website_Lab-1/S3_configuration_to_host_Website_24.jpg)
+
+#####Route53:
+![Lambda_Lab1](readme-images/Section%2010/Serverless%20website_Lab-1/Route53_25.jpg)
+
+</details>
+
+<details>
+<summary>Section 10: Q&A</summary>
+
+* Question 1:
+  You have created a simple serverless website using S3, Lambda, API Gateway and DynamoDB. 
+   Your website will process the contact details of your customers, predict an expected delivery 
+   date of their order and store their order in DynamoDB. You test the website before deploying it 
+   into production and you notice that although the page executes, and the lambda function is triggered, 
+   it is unable to write to DynamoDB. What could be the cause of this issue?
+  
+* A: Your lambda function does not have sufficient Identity Access Management (IAM) permissions to write to DynamoDB.
+
+* Question 3: 
+  What AWS service can be used to help resolve an issue with a lambda function?
+  
+* A: AWS X-Ray helps developers analyze and debug production, distributed applications, such as those built using a
+   microservices & serverless architectures.
+ 
+* Question 4:
+  You have created a serverless application to add metadata to images that are uploaded to a specific S3 bucket.
+   To do this, your lambda function is configured to trigger whenever a new image is created in the bucket.
+   What will happen when multiple users upload multiple different images at the same time?
+  
+* A: Multiple instances of the Lambda function will be triggered, one for each image.
+   Each time a Lambda function is triggered, an isolated instance of that function is invoked. 
+   Multiple triggers result in multiple concurrent invocations, one for each time it is triggered.
+  
+* Question 5:
+  As a DevOps engineer you are told to prepare complete solution to run a piece of code that required multi-threaded
+   processing. The code has been running on an old custom-built server based around a 4 core Intel Xeon processor. 
+   Which of these best describe the AWS compute services that could be used?
+
+* A: EC2, ECS, and Lambda. The exact ratio of cores to memory has varied over time for Lambda instances, 
+    however Lambda like EC2 and ECS supports hyper-threading on one or more virtual CPUs 
+    (if your code supports hyper-threading). 
+
+</details>
