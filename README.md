@@ -1336,7 +1336,7 @@ with SQS FiFo queues, this is no longer a distinguishing feature.
 ![Lambda](readme-images/Section%2010/Lambda/lambda_with_triggers_5.jpg)
 * Services which could trigger Lambda:
 [link](https://docs.aws.amazon.com/lambda/latest/dg/lambda-services.html#intro-core-components-event-sources)
-* Comparition with EC2:
+* Comparision with EC2:
 [link](https://aws.amazon.com/lambda/faqs/)
 
 ![Lambda](readme-images/Section%2010/Lambda/lambda_with_http_6.jpg)
@@ -1348,5 +1348,14 @@ with SQS FiFo queues, this is no longer a distinguishing feature.
 #####Exam tips:
 ![Lambda](readme-images/Section%2010/Lambda/lambda_tips_11.jpg)
 ![Lambda](readme-images/Section%2010/Lambda/lambda_tips_12.jpg)
+
+</details>
+
+<details>
+<summary>Section 10: Serverless webpage, Lab1</summary>
+
+zipped files of this course: [files](files/ServerlessWebsiteResources.zip)
+
+![Lambda_Lab1](readme-images/Section%2010/Lambda/lambda_with_http_6.jpg)
 
 </details>
