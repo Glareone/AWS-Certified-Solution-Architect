@@ -1356,7 +1356,45 @@ with SQS FiFo queues, this is no longer a distinguishing feature.
 
 zipped files of this course: [files](files/ServerlessWebsiteResources.zip)
 
-![Lambda_Lab1](readme-images/Section%2010/Lambda/lambda_with_http_6.jpg)
+![Lambda_Lab1](readme-images/Section%2010/Serverless%20website_Lab-1/Scheme_1.jpg)
+![Lambda_Lab1](readme-images/Section%2010/Serverless%20website_Lab-1/lambda_2.jpg)
+![Lambda_Lab1](readme-images/Section%2010/Serverless%20website_Lab-1/lambda_3.jpg)
+![Lambda_Lab1](readme-images/Section%2010/Serverless%20website_Lab-1/lambda_4.jpg)
+![Lambda_Lab1](readme-images/Section%2010/Serverless%20website_Lab-1/lambda_5.jpg)
+![Lambda_Lab1](readme-images/Section%2010/Serverless%20website_Lab-1/lambda_6.jpg)
+![Lambda_Lab1](readme-images/Section%2010/Serverless%20website_Lab-1/lambda_7.jpg)
+![Lambda_Lab1](readme-images/Section%2010/Serverless%20website_Lab-1/lambda_8.jpg)
+
+#####Trigger configuration:
+![Lambda_Lab1](readme-images/Section%2010/Serverless%20website_Lab-1/configure_a_trigger_9.jpg)
+![Lambda_Lab1](readme-images/Section%2010/Serverless%20website_Lab-1/configure_a_trigger_10.jpg)
+![Lambda_Lab1](readme-images/Section%2010/Serverless%20website_Lab-1/configure_a_trigger_11.jpg)
+
+#####API Gateway:
+![Lambda_Lab1](readme-images/Section%2010/Serverless%20website_Lab-1/API_Gateway_Console_12.jpg)
+![Lambda_Lab1](readme-images/Section%2010/Serverless%20website_Lab-1/API_Gateway_Console_13.jpg)
+![Lambda_Lab1](readme-images/Section%2010/Serverless%20website_Lab-1/API_Gateway_Console_14.jpg)
+![Lambda_Lab1](readme-images/Section%2010/Serverless%20website_Lab-1/API_Gateway_Console_15.jpg)
+
+#####Deploy API:
+![Lambda_Lab1](readme-images/Section%2010/Serverless%20website_Lab-1/API_Gateway_Console_Deploy_API_16.jpg)
+![Lambda_Lab1](readme-images/Section%2010/Serverless%20website_Lab-1/API_Gateway_Console_17.jpg)
+
+#####Lambda test:
+![Lambda_Lab1](readme-images/Section%2010/Serverless%20website_Lab-1/API_Gateway_Console_18.jpg)
+
+#####S3 for static html page:
+![Lambda_Lab1](readme-images/Section%2010/Serverless%20website_Lab-1/S3_For_static_page_19.jpg)
+![Lambda_Lab1](readme-images/Section%2010/Serverless%20website_Lab-1/S3_For_static_page_20.jpg)
+
+#####S3 configuration to host website:
+![Lambda_Lab1](readme-images/Section%2010/Serverless%20website_Lab-1/S3_configuration_to_host_Website_21.jpg)
+![Lambda_Lab1](readme-images/Section%2010/Serverless%20website_Lab-1/S3_configuration_to_host_Website_22.jpg)
+![Lambda_Lab1](readme-images/Section%2010/Serverless%20website_Lab-1/S3_configuration_to_host_Website_23.jpg)
+![Lambda_Lab1](readme-images/Section%2010/Serverless%20website_Lab-1/S3_configuration_to_host_Website_24.jpg)
+
+#####Route53:
+![Lambda_Lab1](readme-images/Section%2010/Serverless%20website_Lab-1/Route53_25.jpg)
 
 </details>
 
