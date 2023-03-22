@@ -1,5 +1,11 @@
-# Deploy react-app to S3 or CloudFront
-Article: https://wolovim.medium.com/deploying-create-react-app-to-s3-or-cloudfront-48dae4ce0af
+# Table of Content
+1. [Azure AZ-304 Solution Architect & System Design Materials](https://github.com/Glareone/AZ-304-SA-And-Architecture-Design-In-Depth)
+2. [AWS. Interesting Materials](#interesting-materials)
+3. [AWS. General Information](#section-3-general-information-about-aws-services)
+4. [AWS. EC2](#section-4-ec2)
+
+## Interesting materials
+Deploy react-app to S3 or CloudFront: https://wolovim.medium.com/deploying-create-react-app-to-s3-or-cloudfront-48dae4ce0af
 
 # AWS CERTIFIED SOLUTION ARCHITECT MATERIALS
 
