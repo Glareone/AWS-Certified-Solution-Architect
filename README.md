@@ -3,6 +3,11 @@
 2. [AWS. Interesting Materials](#interesting-materials)
 3. [AWS. General Information](#section-3-general-information-about-aws-services)
 4. [AWS. EC2](#section-4-ec2)
+5. [AWS. Databases](#section-5-databases-on-aws)
+6. [AWS. Route 53.DNS101. Route Policies](#section-6-route53-dns101-routing-policies-tips)
+7. [AWS. VPC](#section-7-vpc-custom-vpc-configuration)
+8. [AWS. HA & Load Balancing](#section-8-high-availability-architecture-load-balancing-target-groups-cloudformation-beanstalk)
+9. [AWS. Apps: SQS, SNS, Kinesis, Transcoder, Cognito, Web Identify Federation](#section-9-applications-sqs-sns-swf-kinesis-elastic-transcoder-cognito---web-identify-federation)
 
 ## Interesting materials
 Deploy react-app to S3 or CloudFront: https://wolovim.medium.com/deploying-create-react-app-to-s3-or-cloudfront-48dae4ce0af
