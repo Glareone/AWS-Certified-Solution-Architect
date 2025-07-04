@@ -11,8 +11,8 @@
 10. Migration To AWS, articles:  
   a. https://docs.aws.amazon.com/prescriptive-guidance/latest/large-migration-governance-playbook/welcome.html  
   b. https://www.projectpro.io/article/aws-cloud-migration-project-plan-example/753#:~:text=AWS%20Cloud%20migration%20project%20plan%20helps%20you%20identify%20your%20goals,the%20business%20requirements%20and%20goals.  
-11. AWS Solution Architecture In Practice
-  a. [Basics. AWS Solution Architecture Examples](https://github.com/Glareone/AWS-Certified-Solution-Architect/tree/master/AWS-Architecture-In-Practice)
+11. AWS Solution Architecture In Practice  
+  a. [Basics. AWS Solution Architecture Examples](https://github.com/Glareone/AWS-Certified-Solution-Architect/tree/master/AWS-Architecture-In-Practice)  
 
 ## Interesting materials
 [Deploy react-app to S3 or CloudFront](https://wolovim.medium.com/deploying-create-react-app-to-s3-or-cloudfront-48dae4ce0af)
