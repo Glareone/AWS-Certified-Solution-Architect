@@ -1,4 +1,3 @@
-
 #### Step Function
 ![image](https://github.com/user-attachments/assets/a5747433-d945-4c8f-a95f-593d33656c75)
 
