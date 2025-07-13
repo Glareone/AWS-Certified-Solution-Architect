@@ -30,12 +30,17 @@ Architecture Benefits:
 1. Aggregate function. Throttler Lambda acts as gatekeeper, enforcing per-user quotas and rate limits.  
    - Global state management through DynamoDB for cross-request coordination  
    - Graceful degradation when limits are exceeded (queue vs reject)  
-3. ⚡️ Fine-Grained Parallelism Control: Step Function can manage the level of parallelism and control the execution state.  
+2. ⚡️ Fine-Grained Parallelism & Exectuion Control: Step Function can manage the level of parallelism and control the execution state.  
    - Configurable concurrency: Set 3-10 parallel validation Lambdas based on OpenAI TPM limits  
-   - Dynamic scaling: Adjust parallelism based on real-time token consumption  
-   - 
-5. Cancel Processing: Step Function supports "Stop" operation and user is able to cancel the processing request in the middle of the execution
-6. We can control whether we store all results at once or it's acceptable to store intermediate results.
+   - Dynamic scaling: Adjust parallelism based on real-time token consumption.  
+   - Retry logic: we can retry the validation functions.  
+   - Delay capabilities: we can retry the validation logic with some delay.  
+3. 👀 Execution Management & Observability. Cancellation: Users can stop processing mid-execution via Step Functions StopExecution API.  
+   - Progress monitoring: Track progress through AWS Console or using REST calls
+   - Detailed logging: CloudWatch integration provides execution history and error details
+4. 💾 Flexible Result Storage Patterns. We can control whether we store all results at once or it's acceptable to store intermediate results.  
+   - Incremental storage: Save validation results as they complete.
+   - Failure recovery: Resume from last successful validation on retry.
 
 ### Dynamic Control of Parallelism without Redeployment. 
 #### 1. Dynamic Parallelism via Lambda Controller
