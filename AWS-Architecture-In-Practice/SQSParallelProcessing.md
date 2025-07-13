@@ -1,5 +1,32 @@
-### Parallel Processing Using SQS 
+### Parallel Processing Using SQS. Event Storming
 Following best practices from Well-Architectured it's possible to build validation processing as well, demonstrated in [Step Function Section](./StepFunction.md)
+
+#### Event Storming analysis
+
+To build the proper system using EventStore we have to analyze what events-commands-states we have:
+
+```
+Events (Business Language):
+├── "Credit Application Submitted"
+├── "Document Uploaded" 
+├── "Validation Rule Applied"
+├── "Validation Completed"
+├── "Application Approved/Rejected"
+└── "Results Downloaded"
+
+Commands:
+├── "Submit Application"
+├── "Upload Supporting Documents" 
+├── "Start Validation Process"
+└── "Download Results"
+
+Aggregates:
+├── CreditApplication
+├── ValidationRule
+├── ValidationResult
+└── User
+```
+
 
 #### Components Composition
 
@@ -8,6 +35,7 @@ API Gateway → Throttler Lambda → SQS Queue(s) → Validation Lambdas → Dyn
                     ↓
                User Quota Store (DynamoDB)
 ```
+
 
 #### Parallelism & Retry Control
 We can organize the control of the parallelism and retry strategy using SQS. SQS Configuration.Lambda Reserved Concurrency.
