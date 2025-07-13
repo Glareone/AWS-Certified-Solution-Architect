@@ -1,19 +1,5 @@
 # AWS Architecture In Practice
-
-
----
-### AWS Bedrock Flows vs LangGraph 
-WIP
----
-### Step Function vs Event Storming
-
-
-
-#### Event Storming. SQS.
-WIP
-
-#### Comparison
-
----
-### Step Function for High Load Processing
-WIP
+Table of content
+1. [Step Function vs Event Storming](./StepFunction.md)
+2. [SQS and Parallel Processing. Event Storming](./SQSParralelProcessing.md)
+3. AWS Bedrock Flows vs LangGraph. WIP
