@@ -30,12 +30,12 @@ Aggregates:
 
 #### Components Composition
 
-```
-API Gateway → Throttler Lambda → SQS Queue(s) → Validation Lambdas → DynamoDB
-                    ↓
-               User Quota Store (DynamoDB)
-```
+<img width="2255" height="1773" alt="image" src="https://github.com/user-attachments/assets/8ed97c77-b363-4700-80f8-6671176036c4" />
 
+#### Limitations
+1. Using Simple Aggregator function you cant control the number of applications each user send. You can increment the lock, but cant decrement.
+   - In order to manage this you need to introduce additional component to your system.
+2. Like in situation with Step Function you can change the level of parallelism only reconfiguring SQS, so Terraform-changes.
 
 #### Parallelism & Retry Control
 We can organize the control of the parallelism and retry strategy using SQS. SQS Configuration.Lambda Reserved Concurrency.
