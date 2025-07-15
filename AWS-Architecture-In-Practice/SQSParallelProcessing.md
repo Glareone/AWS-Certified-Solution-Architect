@@ -52,3 +52,32 @@ Example: Set to 10 for max 10 concurrent validations
   }
 }
 ```
+
+---
+#### Projection. Improved control over applied executions.
+<img width="2255" height="1773" alt="image" src="https://github.com/user-attachments/assets/9b8c6c34-caa7-4376-bbb8-a60cbf887f51" />
+
+
+#### PROS:
+
+✅ Simple, everything in one place  
+✅ Immediate quota release  
+✅ No additional infrastructure  
+
+#### CONS:
+
+❌ Violates Single Responsibility Principle  
+❌ Harder to test business logic in isolation  
+❌ Quota logic scattered across validation functions  
+❌ Difficult to add features (notifications, analytics)  
+  
+#### PROJECTION. Option 2 (Clean Separation). Advanced Disign.
+<img width="2063" height="1938" alt="image" src="https://github.com/user-attachments/assets/b00a1167-f7a9-4cf7-8c7a-a5f16033f27d" />
+
+#### Go with Option 2 because:
+✅ Separation of concerns - Business logic stays pure  
+✅ Easier testing - Mock SQS for projection testing  
+✅ Scalability - Projection can handle multiple event types  
+✅ Extensibility - Easy to add notifications, analytics, etc.  
+✅ Reliability - DLQ for failed projections  
+✅ Monitoring - Clear metrics for each component  
