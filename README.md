@@ -1,19 +1,24 @@
 # Table of Content
+### Azure 
 1. [Azure AZ-304 Solution Architect & System Design Materials](https://github.com/Glareone/AZ-304-SA-And-Architecture-Design-In-Depth)
-2. [AWS. Interesting Materials](#interesting-materials)
-3. [AWS. General Information](#section-3-general-information-about-aws-services)
-4. [AWS. EC2](#section-4-ec2)
-5. [AWS. Databases](#section-5-databases-on-aws)
-6. [AWS. Route 53.DNS101. Route Policies](#section-6-route53-dns101-routing-policies-tips)
-7. [AWS. VPC](#section-7-vpc-custom-vpc-configuration)
-8. [AWS. HA & Load Balancing](#section-8-high-availability-architecture-load-balancing-target-groups-cloudformation-beanstalk)
-9. [AWS. Apps: SQS, SNS, Kinesis, Transcoder, Cognito, Web Identify Federation](#section-9-applications-sqs-sns-swf-kinesis-elastic-transcoder-cognito---web-identify-federation)
-10. Migration To AWS, articles:  
+## AWS Theory. AWS Solution Architect Materials to pass the exam
+1. [AWS. Interesting Materials](#interesting-materials)
+2. [AWS. General Information](#section-3-general-information-about-aws-services)
+3. [AWS. EC2](#section-4-ec2)
+4. [AWS. Databases](#section-5-databases-on-aws)
+5. [AWS. Route 53.DNS101. Route Policies](#section-6-route53-dns101-routing-policies-tips)
+6. [AWS. VPC](#section-7-vpc-custom-vpc-configuration)
+7. [AWS. HA & Load Balancing](#section-8-high-availability-architecture-load-balancing-target-groups-cloudformation-beanstalk)
+8. [AWS. Apps: SQS, SNS, Kinesis, Transcoder, Cognito, Web Identify Federation](#section-9-applications-sqs-sns-swf-kinesis-elastic-transcoder-cognito---web-identify-federation)
+9. Migration To AWS, articles:  
   a. https://docs.aws.amazon.com/prescriptive-guidance/latest/large-migration-governance-playbook/welcome.html  
   b. https://www.projectpro.io/article/aws-cloud-migration-project-plan-example/753#:~:text=AWS%20Cloud%20migration%20project%20plan%20helps%20you%20identify%20your%20goals,the%20business%20requirements%20and%20goals.  
-11. AWS Solution Architecture In Practice  
+
+## AWS In Practice.
+1. AWS Solution Architecture In Practice  
   a. [Step Function. Advantages & Disadvantages. Comparison. Alternatives.](https://github.com/Glareone/AWS-Certified-Solution-Architect/blob/master/AWS-Architecture-In-Practice/StepFunction.md)  
   b. [SQS + Lambda. Fan-out. Event-Storming as you services strategy.](https://github.com/Glareone/AWS-Certified-Solution-Architect/blob/master/AWS-Architecture-In-Practice/SQSParallelProcessing.md)    
+
 
 ## Interesting materials
 [Deploy react-app to S3 or CloudFront](https://wolovim.medium.com/deploying-create-react-app-to-s3-or-cloudfront-48dae4ce0af)
