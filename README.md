@@ -15,10 +15,11 @@
   b. https://www.projectpro.io/article/aws-cloud-migration-project-plan-example/753#:~:text=AWS%20Cloud%20migration%20project%20plan%20helps%20you%20identify%20your%20goals,the%20business%20requirements%20and%20goals.  
 
 ## AWS In Practice.
-1. AWS Solution Architecture In Practice  
+1. [AWS Solution Architecture In Practice](https://github.com/Glareone/AWS-Certified-Solution-Architect/blob/master/AWS-Architecture-In-Practice/Readme.md)  
   a. [Step Function. Advantages & Disadvantages. Comparison. Alternatives.](https://github.com/Glareone/AWS-Certified-Solution-Architect/blob/master/AWS-Architecture-In-Practice/StepFunction.md)  
   b. [SQS + Lambda. Fan-out. Event-Storming as you services strategy.](https://github.com/Glareone/AWS-Certified-Solution-Architect/blob/master/AWS-Architecture-In-Practice/SQSParallelProcessing.md)    
-
+  c. [WIP...KPI and Logs. Principles of splitting the data. Telemetry vs Logs vs Metrics.](https://github.com/Glareone/AWS-Certified-Solution-Architect/blob/master/AWS-Architecture-In-Practice/KpiAndLogs.md)
+  d. [WIP...SignalR in AWS Serverles.](https://github.com/Glareone/AWS-Certified-Solution-Architect/blob/master/AWS-Architecture-In-Practice/WebSocketsAndSignalR.md)  
 
 ## Interesting materials
 [Deploy react-app to S3 or CloudFront](https://wolovim.medium.com/deploying-create-react-app-to-s3-or-cloudfront-48dae4ce0af)
