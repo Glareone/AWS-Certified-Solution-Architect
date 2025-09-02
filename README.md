@@ -13,6 +13,7 @@
   b. https://www.projectpro.io/article/aws-cloud-migration-project-plan-example/753#:~:text=AWS%20Cloud%20migration%20project%20plan%20helps%20you%20identify%20your%20goals,the%20business%20requirements%20and%20goals.  
 11. AWS Solution Architecture In Practice  
   a. [Step Function. Advantages & Disadvantages. Comparison. Alternatives.](https://github.com/Glareone/AWS-Certified-Solution-Architect/blob/master/AWS-Architecture-In-Practice/StepFunction.md)  
+  b. [SQS + Lambda. Fan-out. Event-Storming as you services strategy.](https://github.com/Glareone/AWS-Certified-Solution-Architect/blob/master/AWS-Architecture-In-Practice/SQSParallelProcessing.md)    
 
 ## Interesting materials
 [Deploy react-app to S3 or CloudFront](https://wolovim.medium.com/deploying-create-react-app-to-s3-or-cloudfront-48dae4ce0af)
