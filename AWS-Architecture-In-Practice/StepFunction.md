@@ -27,20 +27,20 @@ What Step Functions excels at:
 
 #### Limitations and Constraints
 Hard Limits
-* 25,000 state transitions per execution - This is a hard limit that cannot be increased  
-* Standard Workflows: Up to 1 year execution time  
-* Express Workflows: Maximum 5 minutes execution time  
-* 1MB payload size limit - Requires S3 for larger data transfers  
-* Long-Running Task Challenges: Step Functions isn't naturally designed for long-running tasks.
-  - For tasks exceeding Lambda's 15-minute limit, you need workarounds like:
-      * Polling patterns - Lambda checks status periodically until completion
-      * ECS/Fargate integration - For compute-intensive tasks > 15 minutes
-      * Activity Tasks - External workers that can run indefinitely
+  * 25,000 state transitions per execution - This is a hard limit that cannot be increased  
+  * Standard Workflows: Up to 1 year execution time  
+  * Express Workflows: Maximum 5 minutes execution time  
+  * 1MB payload size limit - Requires S3 for larger data transfers  
+  * Long-Running Task Challenges: Step Functions isn't naturally designed for long-running tasks.
+    - For tasks exceeding Lambda's 15-minute limit, you need workarounds like:
+        * Polling patterns - Lambda checks status periodically until completion
+        * ECS/Fargate integration - For compute-intensive tasks > 15 minutes
+        * Activity Tasks - External workers that can run indefinitely
 
 #### Common Anti-Patterns and Problems
 1. Mixing Orchestration with Business Logic
 Problem: Step Functions becomes a complex state machine that embeds business rules rather than just coordinating services.
-* Anti-pattern: mixing orchestration and business logic
+  * Anti-pattern: mixing orchestration and business logic
 ```json
 {
   "CalculateDiscount": {
@@ -52,16 +52,15 @@ Problem: Step Functions becomes a complex state machine that embeds business rul
   }
 }
 ```
-* Better approach: Move business logic to Lambda functions, use Step Functions only for coordination.
+  * Better approach: Move business logic to Lambda functions, use Step Functions only for coordination.
 
 2. Aggregator Pattern Overuse
-Step Functions often gets forced into aggregator roles where it collects results from multiple services.  
-This creates tight coupling and makes the workflow responsible for both orchestration and data transformation.  
-* Anti-pattern: Step Functions collecting and transforming data from 10+ services
-* Better approach: Use dedicated aggregation services (Lambda, Kinesis Analytics) with Step Functions coordinating the overall flow.
+  * Step Functions often gets forced into aggregator roles where it collects results from multiple services. This creates tight coupling and makes the workflow responsible for both orchestration and data transformation.   
+  * Anti-pattern: Step Functions collecting and transforming data from 10+ services
+  * Better approach: Use dedicated aggregation services (Lambda, Kinesis Analytics) with Step Functions coordinating the overall flow.
 
 3. Serverless Compromise for Long-Running Tasks
-Serverles vs ECS trade-offs. When you need long-running tasks, you face:
+  * Serverles vs ECS trade-offs. When you need long-running tasks, you face:
 
 1. SQS + Lambda: Serverless but complex polling/chunking patterns
 2. ECS/Fargate: Simple but breaks the serverless model
