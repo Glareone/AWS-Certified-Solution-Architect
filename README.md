@@ -17,8 +17,8 @@
 ## AWS In Practice.
 1. [AWS Solution Architecture In Practice](https://github.com/Glareone/AWS-Certified-Solution-Architect/blob/master/AWS-Architecture-In-Practice/Readme.md)  
   a. [Step Function. Advantages & Disadvantages. Comparison. Alternatives.](https://github.com/Glareone/AWS-Certified-Solution-Architect/blob/master/AWS-Architecture-In-Practice/StepFunction.md)  
-  b. [SQS + Lambda. Fan-out. Event-Storming as you services strategy.](https://github.com/Glareone/AWS-Certified-Solution-Architect/blob/master/AWS-Architecture-In-Practice/SQSParallelProcessing.md)    
-  c. [WIP...KPI and Logs. Principles of splitting the data. Telemetry vs Logs vs Metrics.](https://github.com/Glareone/AWS-Certified-Solution-Architect/blob/master/AWS-Architecture-In-Practice/KpiAndLogs.md)
+  b. [SQS + Lambda. Fan-out. Event-Storming as you services strategy.](https://github.com/Glareone/AWS-Certified-Solution-Architect/blob/master/AWS-Architecture-In-Practice/SQSParallelProcessing.md)   
+  c. [WIP...KPI and Logs. Principles of splitting the data. Telemetry vs Logs vs Metrics.](https://github.com/Glareone/AWS-Certified-Solution-Architect/blob/master/AWS-Architecture-In-Practice/KpiAndLogs.md)  
   d. [WIP...SignalR in AWS Serverles.](https://github.com/Glareone/AWS-Certified-Solution-Architect/blob/master/AWS-Architecture-In-Practice/WebSocketsAndSignalR.md)  
 
 ## Interesting materials
